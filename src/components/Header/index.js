@@ -4,7 +4,8 @@ import './style.scss';
 
 function Header() {
     return (
-        <header className="header-panel navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <header className="header-panel container-fluid navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+            <div className="container">
             <Link className="navbar-brand mr-0 mr-md-2 text-success" to="/" href="/">
                 <b>MOVIECHILL</b>
             </Link>
@@ -27,6 +28,10 @@ function Header() {
                         <Link className="nav-link " to="/about/">
                             About</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link " to="/theme/">
+                            Theme</Link>
+                    </li>
                 </ul>
             </div>
             <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
@@ -45,6 +50,7 @@ function Header() {
                 </li>
             </ul>
             <a className="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="/docs/4.1/getting-started/download/">Download</a>
+            </div>
         </header>
     )
 }

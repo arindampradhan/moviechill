@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react'
+import { observer } from 'mobx-react';
 
-function Example(params) {
+@observer(['movie'])
+class MoviePage extends Component {
+  componentDidMount() {
+      debugger
+      const {movie, match} = this.props
+      if (match && match.params.movie_id) {
+          movie.getMovie(match.params.movie_id)
+          movie.getMovieDetails(match.params.movie_id)
+      }
+  }
+
+  render() {
     return (
-        <div>
-            <h1>EXAMPLE</h1>
-        </div>
+      <div>
+        <h2>Movie Page</h2>
+      </div>
     )
+  }
 }
 
-export default Example;
+
+export default MoviePage;

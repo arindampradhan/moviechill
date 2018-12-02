@@ -48,7 +48,7 @@ export class Home {
     discoverMovie(type, primary_release_year) {
         this.state.discover = 'pending'
         this.discover = []
-        api.discoverMovie(type.primary_release_year).then(response => {
+        api.discoverMovie(type,primary_release_year).then(response => {
             runInAction(() => {
                 this.state.discover = 'success'
                 this.discover = response
