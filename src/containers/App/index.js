@@ -6,6 +6,7 @@ import HomePage from '../HomePage/Loadable';
 import MoviePage from '../MoviePage/Loadable';
 import PersonPage from '../PersonPage/Loadable';
 import NotFound from '../NotFound/Loadable';
+import DefaultPage from '../../components/Loader';
 
 class App extends Component {
     render() {
@@ -17,7 +18,7 @@ class App extends Component {
                 <Route path="/movie/:movie_id" component={MoviePage} />
                 <Route path="/person/:person_id" component={PersonPage} />
                 <Route path="/theme" component={ThemePage} />
-                <Route path="/example" component={Example} />
+                <Route path="/example" component={DefaultPage} />
                 <Route path="" component={NotFound} />
             </Switch>
         );

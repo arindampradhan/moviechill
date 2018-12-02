@@ -312,6 +312,7 @@ module.exports = {
                 importLoaders: 2,
                 modules: true,
                 getLocalIdent: getCSSModuleLocalIdent,
+                sourceMaps: true,
               },
               'sass-loader'
             ),
