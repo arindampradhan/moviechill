@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import LayoutRoute from '../../components/LayoutRoute';
-import Example from '../Example/Loadable';
+// import Example from '../Example/Loadable';
 import ThemePage from '../BootstrapTheme/Loadable';
 import HomePage from '../HomePage/Loadable';
 import MoviePage from '../MoviePage/Loadable';

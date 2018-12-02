@@ -30,23 +30,23 @@ function BootstrapTheme(params) {
               </div>
               <div className="bs-component">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-                  <a className="navbar-brand" href="#">Navbar</a>
+                  <a className="navbar-brand" href="!#">Navbar</a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                   </button>
                   <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav mr-auto">
                       <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="!#">Home <span className="sr-only">(current)</span></a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Features</a>
+                        <a className="nav-link" href="!#">Features</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing</a>
+                        <a className="nav-link" href="!#">Pricing</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="!#">About</a>
                       </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
@@ -58,23 +58,23 @@ function BootstrapTheme(params) {
               </div>
               <div className="bs-component">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                  <a className="navbar-brand" href="#">Navbar</a>
+                  <a className="navbar-brand" href="!#">Navbar</a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                   </button>
                   <div className="collapse navbar-collapse" id="navbarColor02">
                     <ul className="navbar-nav mr-auto">
                       <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="!#">Home <span className="sr-only">(current)</span></a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Features</a>
+                        <a className="nav-link" href="!#">Features</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing</a>
+                        <a className="nav-link" href="!#">Pricing</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="!#">About</a>
                       </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
@@ -86,23 +86,23 @@ function BootstrapTheme(params) {
               </div>
               <div className="bs-component">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                  <a className="navbar-brand" href="#">Navbar</a>
+                  <a className="navbar-brand" href="!#">Navbar</a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                   </button>
                   <div className="collapse navbar-collapse" id="navbarColor03">
                     <ul className="navbar-nav mr-auto">
                       <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="!#">Home <span className="sr-only">(current)</span></a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Features</a>
+                        <a className="nav-link" href="!#">Features</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing</a>
+                        <a className="nav-link" href="!#">Pricing</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="!#">About</a>
                       </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
@@ -159,8 +159,8 @@ function BootstrapTheme(params) {
                   <div className="btn-group" role="group">
                     <button id="btnGroupDrop1" type="button" className="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
                     <div className="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                      <a className="dropdown-item" href="#">Dropdown link</a>
-                      <a className="dropdown-item" href="#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
                     </div>
                   </div>
                 </div>
@@ -169,8 +169,8 @@ function BootstrapTheme(params) {
                   <div className="btn-group" role="group">
                     <button id="btnGroupDrop2" type="button" className="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
                     <div className="dropdown-menu" aria-labelledby="btnGroupDrop2">
-                      <a className="dropdown-item" href="#">Dropdown link</a>
-                      <a className="dropdown-item" href="#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
                     </div>
                   </div>
                 </div>
@@ -179,8 +179,8 @@ function BootstrapTheme(params) {
                   <div className="btn-group" role="group">
                     <button id="btnGroupDrop3" type="button" className="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
                     <div className="dropdown-menu" aria-labelledby="btnGroupDrop3">
-                      <a className="dropdown-item" href="#">Dropdown link</a>
-                      <a className="dropdown-item" href="#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
                     </div>
                   </div>
                 </div>
@@ -189,8 +189,8 @@ function BootstrapTheme(params) {
                   <div className="btn-group" role="group">
                     <button id="btnGroupDrop4" type="button" className="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
                     <div className="dropdown-menu" aria-labelledby="btnGroupDrop4">
-                      <a className="dropdown-item" href="#">Dropdown link</a>
-                      <a className="dropdown-item" href="#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
+                      <a className="dropdown-item" href="!#">Dropdown link</a>
                     </div>
                   </div>
                 </div>
@@ -299,7 +299,7 @@ function BootstrapTheme(params) {
             <div className="col-lg-4">
               <div className="bs-component">
                 <h2>Example body text</h2>
-                <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                <p>Nullam quis risus eget <a href="!#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
                 <p><small>This line of text is meant to be treated as fine print.</small></p>
                 <p>The following is <strong>rendered as bold text</strong>.</p>
                 <p>The following is <em>rendered as italicized text</em>.</p>
@@ -662,16 +662,16 @@ function BootstrapTheme(params) {
                     <a className="nav-link" data-toggle="tab" href="#profile">Profile</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link disabled" href="#">Disabled</a>
+                    <a className="nav-link disabled" href="!#">Disabled</a>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="!#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                     <div className="dropdown-menu">
-                      <a className="dropdown-item" href="#">Action</a>
-                      <a className="dropdown-item" href="#">Another action</a>
-                      <a className="dropdown-item" href="#">Something else here</a>
+                      <a className="dropdown-item" href="!#">Action</a>
+                      <a className="dropdown-item" href="!#">Another action</a>
+                      <a className="dropdown-item" href="!#">Something else here</a>
                       <div className="dropdown-divider" />
-                      <a className="dropdown-item" href="#">Separated link</a>
+                      <a className="dropdown-item" href="!#">Separated link</a>
                     </div>
                   </li>
                 </ul>
@@ -696,23 +696,23 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <ul className="nav nav-pills">
                   <li className="nav-item">
-                    <a className="nav-link active" href="#">Active</a>
+                    <a className="nav-link active" href="!#">Active</a>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="!#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                     <div className="dropdown-menu" x-placement="top-start" style={{position: 'absolute', willChange: 'transform', top: 0, left: 0, transform: 'translate3d(0px, -2px, 0px)'}}>
-                      <a className="dropdown-item" href="#">Action</a>
-                      <a className="dropdown-item" href="#">Another action</a>
-                      <a className="dropdown-item" href="#">Something else here</a>
+                      <a className="dropdown-item" href="!#">Action</a>
+                      <a className="dropdown-item" href="!#">Another action</a>
+                      <a className="dropdown-item" href="!#">Something else here</a>
                       <div className="dropdown-divider" />
-                      <a className="dropdown-item" href="#">Separated link</a>
+                      <a className="dropdown-item" href="!#">Separated link</a>
                     </div>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link" href="!#">Link</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link disabled" href="#">Disabled</a>
+                    <a className="nav-link disabled" href="!#">Disabled</a>
                   </li>
                 </ul>
               </div>
@@ -720,23 +720,23 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <ul className="nav nav-pills flex-column">
                   <li className="nav-item">
-                    <a className="nav-link active" href="#">Active</a>
+                    <a className="nav-link active" href="!#">Active</a>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="!#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                     <div className="dropdown-menu">
-                      <a className="dropdown-item" href="#">Action</a>
-                      <a className="dropdown-item" href="#">Another action</a>
-                      <a className="dropdown-item" href="#">Something else here</a>
+                      <a className="dropdown-item" href="!#">Action</a>
+                      <a className="dropdown-item" href="!#">Another action</a>
+                      <a className="dropdown-item" href="!#">Something else here</a>
                       <div className="dropdown-divider" />
-                      <a className="dropdown-item" href="#">Separated link</a>
+                      <a className="dropdown-item" href="!#">Separated link</a>
                     </div>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link" href="!#">Link</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link disabled" href="#">Disabled</a>
+                    <a className="nav-link disabled" href="!#">Disabled</a>
                   </li>
                 </ul>
               </div>
@@ -750,12 +750,12 @@ function BootstrapTheme(params) {
                   <li className="breadcrumb-item active">Home</li>
                 </ol>
                 <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="#">Home</a></li>
+                  <li className="breadcrumb-item"><a href="!#">Home</a></li>
                   <li className="breadcrumb-item active">Library</li>
                 </ol>
                 <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="#">Home</a></li>
-                  <li className="breadcrumb-item"><a href="#">Library</a></li>
+                  <li className="breadcrumb-item"><a href="!#">Home</a></li>
+                  <li className="breadcrumb-item"><a href="!#">Library</a></li>
                   <li className="breadcrumb-item active">Data</li>
                 </ol>
               </div>
@@ -766,75 +766,75 @@ function BootstrapTheme(params) {
                 <div>
                   <ul className="pagination">
                     <li className="page-item disabled">
-                      <a className="page-link" href="#">«</a>
+                      <a className="page-link" href="!#">«</a>
                     </li>
                     <li className="page-item active">
-                      <a className="page-link" href="#">1</a>
+                      <a className="page-link" href="!#">1</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">2</a>
+                      <a className="page-link" href="!#">2</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">3</a>
+                      <a className="page-link" href="!#">3</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">4</a>
+                      <a className="page-link" href="!#">4</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">5</a>
+                      <a className="page-link" href="!#">5</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">»</a>
+                      <a className="page-link" href="!#">»</a>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <ul className="pagination pagination-lg">
                     <li className="page-item disabled">
-                      <a className="page-link" href="#">«</a>
+                      <a className="page-link" href="!#">«</a>
                     </li>
                     <li className="page-item active">
-                      <a className="page-link" href="#">1</a>
+                      <a className="page-link" href="!#">1</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">2</a>
+                      <a className="page-link" href="!#">2</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">3</a>
+                      <a className="page-link" href="!#">3</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">4</a>
+                      <a className="page-link" href="!#">4</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">5</a>
+                      <a className="page-link" href="!#">5</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">»</a>
+                      <a className="page-link" href="!#">»</a>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <ul className="pagination pagination-sm">
                     <li className="page-item disabled">
-                      <a className="page-link" href="#">«</a>
+                      <a className="page-link" href="!#">«</a>
                     </li>
                     <li className="page-item active">
-                      <a className="page-link" href="#">1</a>
+                      <a className="page-link" href="!#">1</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">2</a>
+                      <a className="page-link" href="!#">2</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">3</a>
+                      <a className="page-link" href="!#">3</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">4</a>
+                      <a className="page-link" href="!#">4</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">5</a>
+                      <a className="page-link" href="!#">5</a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">»</a>
+                      <a className="page-link" href="!#">»</a>
                     </li>
                   </ul>
                 </div>
@@ -859,7 +859,7 @@ function BootstrapTheme(params) {
                 <div className="alert alert-dismissible alert-warning">
                   <button type="button" className="close" data-dismiss="alert">×</button>
                   <h4 className="alert-heading">Warning!</h4>
-                  <p className="mb-0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" className="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+                  <p className="mb-0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="!#" className="alert-link">vel scelerisque nisl consectetur et</a>.</p>
                 </div>
               </div>
             </div>
@@ -869,7 +869,7 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <div className="alert alert-dismissible alert-danger">
                   <button type="button" className="close" data-dismiss="alert">×</button>
-                  <strong>Oh snap!</strong> <a href="#" className="alert-link">Change a few things up</a> and try submitting again.
+                  <strong>Oh snap!</strong> <a href="!#" className="alert-link">Change a few things up</a> and try submitting again.
                 </div>
               </div>
             </div>
@@ -877,7 +877,7 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <div className="alert alert-dismissible alert-success">
                   <button type="button" className="close" data-dismiss="alert">×</button>
-                  <strong>Well done!</strong> You successfully read <a href="#" className="alert-link">this important alert message</a>.
+                  <strong>Well done!</strong> You successfully read <a href="!#" className="alert-link">this important alert message</a>.
                 </div>
               </div>
             </div>
@@ -885,7 +885,7 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <div className="alert alert-dismissible alert-info">
                   <button type="button" className="close" data-dismiss="alert">×</button>
-                  <strong>Heads up!</strong> This <a href="#" className="alert-link">alert needs your attention</a>, but it's not super important.
+                  <strong>Heads up!</strong> This <a href="!#" className="alert-link">alert needs your attention</a>, but it's not super important.
                 </div>
               </div>
             </div>
@@ -895,7 +895,7 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <div className="alert alert-dismissible alert-primary">
                   <button type="button" className="close" data-dismiss="alert">×</button>
-                  <strong>Oh snap!</strong> <a href="#" className="alert-link">Change a few things up</a> and try submitting again.
+                  <strong>Oh snap!</strong> <a href="!#" className="alert-link">Change a few things up</a> and try submitting again.
                 </div>
               </div>
             </div>
@@ -903,7 +903,7 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <div className="alert alert-dismissible alert-secondary">
                   <button type="button" className="close" data-dismiss="alert">×</button>
-                  <strong>Well done!</strong> You successfully read <a href="#" className="alert-link">this important alert message</a>.
+                  <strong>Well done!</strong> You successfully read <a href="!#" className="alert-link">this important alert message</a>.
                 </div>
               </div>
             </div>
@@ -911,7 +911,7 @@ function BootstrapTheme(params) {
               <div className="bs-component">
                 <div className="alert alert-dismissible alert-light">
                   <button type="button" className="close" data-dismiss="alert">×</button>
-                  <strong>Heads up!</strong> This <a href="#" className="alert-link">alert needs your attention</a>, but it's not super important.
+                  <strong>Heads up!</strong> This <a href="!#" className="alert-link">alert needs your attention</a>, but it's not super important.
                 </div>
               </div>
             </div>
@@ -1019,7 +1019,7 @@ function BootstrapTheme(params) {
                   <hr className="my-4" />
                   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                   <p className="lead">
-                    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <a className="btn btn-primary btn-lg" href="!#" role="button">Learn more</a>
                   </p>
                 </div>
               </div>
@@ -1052,12 +1052,12 @@ function BootstrapTheme(params) {
             <div className="col-lg-4">
               <div className="bs-component">
                 <div className="list-group">
-                  <a href="#" className="list-group-item list-group-item-action active">
+                  <a href="!#" className="list-group-item list-group-item-action active">
                     Cras justo odio
                   </a>
-                  <a href="#" className="list-group-item list-group-item-action">Dapibus ac facilisis in
+                  <a href="!#" className="list-group-item list-group-item-action">Dapibus ac facilisis in
                   </a>
-                  <a href="#" className="list-group-item list-group-item-action disabled">Morbi leo risus
+                  <a href="!#" className="list-group-item list-group-item-action disabled">Morbi leo risus
                   </a>
                 </div>
               </div>
@@ -1065,7 +1065,7 @@ function BootstrapTheme(params) {
             <div className="col-lg-4">
               <div className="bs-component">
                 <div className="list-group">
-                  <a href="#" className="list-group-item list-group-item-action flex-column align-items-start active">
+                  <a href="!#" className="list-group-item list-group-item-action flex-column align-items-start active">
                     <div className="d-flex w-100 justify-content-between">
                       <h5 className="mb-1">List group item heading</h5>
                       <small>3 days ago</small>
@@ -1073,7 +1073,7 @@ function BootstrapTheme(params) {
                     <p className="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                     <small>Donec id elit non mi porta.</small>
                   </a>
-                  <a href="#" className="list-group-item list-group-item-action flex-column align-items-start">
+                  <a href="!#" className="list-group-item list-group-item-action flex-column align-items-start">
                     <div className="d-flex w-100 justify-content-between">
                       <h5 className="mb-1">List group item heading</h5>
                       <small className="text-muted">3 days ago</small>
@@ -1229,8 +1229,8 @@ function BootstrapTheme(params) {
                     <li className="list-group-item">Vestibulum at eros</li>
                   </ul>
                   <div className="card-body">
-                    <a href="#" className="card-link">Card link</a>
-                    <a href="#" className="card-link">Another link</a>
+                    <a href="!#" className="card-link">Card link</a>
+                    <a href="!#" className="card-link">Another link</a>
                   </div>
                   <div className="card-footer text-muted">
                     2 days ago
@@ -1241,8 +1241,8 @@ function BootstrapTheme(params) {
                     <h4 className="card-title">Card title</h4>
                     <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="card-link">Card link</a>
-                    <a href="#" className="card-link">Another link</a>
+                    <a href="!#" className="card-link">Card link</a>
+                    <a href="!#" className="card-link">Another link</a>
                   </div>
                 </div>
               </div>
