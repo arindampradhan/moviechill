@@ -1,5 +1,4 @@
 import request from './utils/request';
-import axios from 'axios'
 
 //////////////////////////////////
 // Movie page
@@ -20,7 +19,7 @@ export const getMovie = (movie_id) => {
  * @param {Number} movie_id
  */
  export const getMovieDetails = (movie_id) => {
-    return axios.all([
+    return Promise.all([
         request({ url: `/movie/${movie_id}/alternative_titles`}), 
         request({ url: `/movie/${movie_id}/changes` }), 
         request({ url: `/movie/${movie_id}/credits` }), 
@@ -39,23 +38,59 @@ export const getMovie = (movie_id) => {
         request({ url: `/movie/${movie_id}/reviews` }), 
         request({ url: `/movie/${movie_id}/lists` }), 
     ])
-    .then(axios.spread(function (acct, perms) {
-        console.log(acct, perms)
-    }));
+    .then(function ([
+        alternative_titles,
+        changes,
+        credits,
+        external_ids,
+        images,
+        keywords,
+        release_dates,
+        videos,
+        translations,
+        recommendations,
+        similar,
+        reviews,
+        lists,
+        recommentation,
+        similarMovie,
+        review,
+        list
+    ]) {
+        return { 
+            alternative_titles,
+            changes,
+            credits,
+            external_ids,
+            images,
+            keywords,
+            release_dates,
+            videos,
+            translations,
+            recommendations,
+            similar,
+            reviews,
+            lists,
+            recommentation,
+            similarMovie,
+            review,
+            list
+        }
+    });
 }
 /**
  * get trending and popular
  */
 export const trendingAndPopular = () => {
-    return axios.all([
+    return Promise.all([
         request({ url: `/movie/popular` }), 
         request({ url: `/movie/top_rated` }), 
         request({ url: `/trending/all/day` }), 
 
     ])
-    .then(axios.spread(function (acct, perms) {
-        console.log(acct, perms)
-    }));
+    .then(function ([popular, top_rated, trending_all_day]) {
+        return { popular, top_rated, trending_all_day }
+    });
 }
 
 
@@ -67,15 +102,48 @@ export const trendingAndPopular = () => {
  * Default page view
  * Discover Movie
  */
-export const discoverMovie = () => {
+export const discoverMovie = (type, primary_release_year = 2018) => {
+    let url = '';
+    switch (type) {
+        case 'theatres':
+            url = `/discover/movie?primary_release_date.gte=2018-09-15&primary_release_date.lte=2019-01-01`;
+            break;
+        case 'popular':
+            url = `/discover/movie?sort_by=popularity.desc`;
+            break;
+        case 'R':
+            url = `/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc`;
+            break;
+        case 'kids':
+            url = `/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc`;
+            break;
+        case 'dramas':
+            url = `/discover/movie?primary_release_year=${primary_release_year}&sort_by=vote_average.desc`;
+            break;
+        case 'science_fiction':
+            url = `/discover/movie?with_genres=878&sort_by=vote_average.desc`;
+            break;
+        case 'highest_grossing':
+            url = `/discover/movie?with_genres=35&sort_by=revenue.desc`;
+            break;
+        case 'best_drama':
+            url = `/discover/movie?with_genres=18&sort_by=vote_average.desc&vote_count.gte=10`;
+            break;
+        default:
+            // movies in theater
+            url = `/discover/movie?primary_release_date.gte=2018-09-15&primary_release_date.lte=2019-01-01`;
+            break;
+    }
+
     return request({
-        url: `/discover/movie?page=1&include_video=false&include_adult=false&sort_by=popularity.desc&language=en-US`
+        url
     })
 }
 
+
 /**
  * Search movie by query
- * @param {*} query search for movie
+ * @param {String} query search for movie
  */
 export const searchMovie = (query) => {
     return request({
@@ -93,7 +161,7 @@ export const searchMovie = (query) => {
  * @param {Number} person_id 
  */
 export const getPerson = (person_id) => {
-    return request({ url: `/person/{person_id}`})
+    return request({ url: `/person/${person_id}`})
 }
 
 
@@ -102,7 +170,7 @@ export const getPerson = (person_id) => {
  * @param {Number} person_id
  */
 export const getPersonDetails = (person_id) => {
-    return axios.all([
+    return Promise.all([
         request({ url: `/person/${person_id}/changes` }),
         request({ url: `/person/${person_id}/movie_credits` }),
         request({ url: `/person/${person_id}/tv_credits` }),
@@ -112,9 +180,9 @@ export const getPersonDetails = (person_id) => {
         request({ url: `/person/${person_id}/tagged_images` }),
         request({ url: `/person/${person_id}/translations` }),
     ])
-    .then(axios.spread(function (acct, perms) {
-        console.log(acct, perms)
-    }));
+    .then(function ([changes, movie_credits, tv_credits, combined_credits, external_ids, images, tagged_images, translations]) {
+        return { changes, movie_credits, tv_credits, combined_credits, external_ids, images, tagged_images, translations }
+    });
 }
 
 export default {

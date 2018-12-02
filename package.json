@@ -38,6 +38,7 @@
     "lodash": "^4.17.11",
     "mini-css-extract-plugin": "0.4.3",
     "mobx": "^5.6.0",
+    "mobx-logger": "^0.7.1",
     "mobx-react": "^5.4.2",
     "mobx-react-router": "^4.0.5",
     "optimize-css-assets-webpack-plugin": "5.0.1",

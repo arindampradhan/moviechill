@@ -6,9 +6,9 @@ import { configure } from "mobx";
 import HomeStore from './containers/HomePage/HomeStore';
 import MovieStore from './containers/MoviePage/MovieStore';
 import PersonStore from './containers/PersonPage/PersonStore';
-
 import { RouterStore, syncHistoryWithStore } from 'mobx-react-router';
 import { Router } from 'react-router';
+import { enableLogging } from 'mobx-logger';
 
 import App from './containers/App';
 // import * as serviceWorker from './serviceWorker';
@@ -33,6 +33,17 @@ const stores = {
     person: personStore,
     // ...other stores
 };
+
+const config = { 
+    predicate: () => true ,
+    action: true,
+    // reaction: true,
+    // transaction: true | false,
+    // compute: true | false
+};
+
+enableLogging(config);
+
 
 const history = syncHistoryWithStore(browserHistory, routingStore);
 
