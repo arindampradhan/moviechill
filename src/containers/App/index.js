@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router';
+import { Switch, Route, Redirect } from 'react-router';
 import Example from '../Example/Loadable';
+import HomePage from '../Example/Loadable';
+import MoviePage from '../Example/Loadable';
+import PersonPage from '../PersonPage/Loadable';
+import NotFound from '../NotFound/Loadable';
 
 class App extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/" component={Example} />
-                <Route path="/features" component={Example} />
-                <Route path="" component={Example} />
+                <Route exact path="/" component={HomePage} />
+                <Redirect from="/movie" to="/"/>
+                <Redirect from="/person" to="/" />
+                <Route path="/movie/:movie_id" component={MoviePage} />
+                <Route path="/person/:person_id" component={PersonPage} />
+                <Route path="/example" component={Example} />
+                <Route path="" component={NotFound} />
             </Switch>
         );
     }
