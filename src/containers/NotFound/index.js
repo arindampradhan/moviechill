@@ -1,11 +1,12 @@
 import React from 'react';
 
-function Example(params) {
+function NotFound({history}) {
     return (
-        <div>
-            <h1>Not Found</h1>
+        <div className="container padding-t-200 text-center">
+            <h1 className="text-primary">Not Found</h1>
+            <button className="btn btn-outline-secondary btn-lg" onClick={history.goBack}>Go Back</button>
         </div>
     )
 }
 
-export default Example;
+export default NotFound;
