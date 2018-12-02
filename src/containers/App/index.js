@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import Example from '../Example/Loadable';
 import ThemePage from '../BootstrapTheme/Loadable';
-import HomePage from '../Example/Loadable';
-import MoviePage from '../Example/Loadable';
+import HomePage from '../HomePage/Loadable';
+import MoviePage from '../MoviePage/Loadable';
 import PersonPage from '../PersonPage/Loadable';
 import NotFound from '../NotFound/Loadable';
 

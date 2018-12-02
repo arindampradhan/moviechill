@@ -1,7 +1,7 @@
 @import "./theme/variables";
 @import "~bootstrap/scss/bootstrap.scss";
 @import "./theme/bootstrap-theme";
-
+@import './modules/space';
 
 body {
   margin: 0;

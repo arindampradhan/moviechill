@@ -1,9 +1,10 @@
 import React from 'react';
+import ExampleComp from '../../components/Example';
 
 function Example(params) {
     return (
         <div>
-            <h1>EXAMPLE</h1>
+            <ExampleComp/>
         </div>
     )
 }
