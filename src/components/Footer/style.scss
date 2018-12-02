@@ -1,4 +1,5 @@
-.example {
-    background: white;
-    color: black ;
+@import '../../styles/theme/variables';
+
+.page-footer {
+    border-top: .1px solid $gray-800;
 }
