@@ -1,4 +1,7 @@
-.example {
-    background: white;
-    color: black ;
+@import '../../styles/theme/variables';
+
+.header-panel {
+    min-height: 70px;
+    // background: white;
+    border-bottom: 1px solid $gray-600; 
 }

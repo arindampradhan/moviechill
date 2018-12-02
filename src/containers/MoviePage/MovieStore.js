@@ -9,7 +9,7 @@ class Movie {
     }
 
     @computed get movie_id() {
-        return this.movie.id
+        return this.movie && this.movie.id ? this.movie.id: null
     }
 
     @action("MOVIE")

@@ -1,12 +1,16 @@
-import React from 'react';
+import {observer} from 'mobx-react';
 import ExampleComp from '../../components/Example';
+import React, { Component } from 'react'
 
-function Example(params) {
+@observer(["home"])
+class HomePage extends Component {
+  render() {
     return (
-        <div>
-            <ExampleComp/>
-        </div>
+      <div className="container">
+        <h1>Home page</h1>
+      </div>
     )
+  }
 }
 
-export default Example;
+export default HomePage;

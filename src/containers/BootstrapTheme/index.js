@@ -4,8 +4,8 @@ function BootstrapTheme(params) {
     return (
       <div className="container">
       <Helmet>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            {/* <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> */}
+            {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> */}
             {/* <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> */}
       </Helmet>
         <div className="page-header" id="banner">
@@ -16,6 +16,39 @@ function BootstrapTheme(params) {
             </div>
             <div className="col-lg-4 col-md-5 col-sm-6">
               <div className="sponsor">
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Gradients */}
+        <div className="bs-docs-section clearfix">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="page-header">
+                <h1 id="navbars">Gradients</h1>
+                <div className="bs-component col-12">
+                  <div className="row bg-white">
+                    <div className="col-4 gradient--loon-crest h-100 text-primary" style={{minHeight: '100px'}}>
+                      gradient--loon-crest
+                    </div>
+                    <div className="col-4 gradient--premium-dark h-100 text-primary" style={{ minHeight: '100px' }}>
+                      gradient--premium-dark
+                    </div>
+                    <div className="col-4 gradient--slick-carbon h-100 text-primary" style={{minHeight: '100px'}}>
+                      gradient--slick-carbon
+                    </div>
+                    <div className="col-4 gradient--eternal-constance h-100 text-primary" style={{minHeight: '100px'}}>
+                      gradient--eternal-constance
+                    </div>
+                    <div className="col-4 gradient--le-cocktail h-100 text-primary" style={{ minHeight: '100px' }}>
+                      gradient--le-cocktail
+                    </div>
+                    <div className="col-4 gradient--rich-metal h-100 text-primary" style={{ minHeight: '100px' }}>
+                      gradient--rich-metal
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>

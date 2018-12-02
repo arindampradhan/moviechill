@@ -4,8 +4,7 @@ import './style.scss';
 
 function Header() {
     return (
-
-        <header className="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <header className="header-panel navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
             <Link className="navbar-brand mr-0 mr-md-2 text-success" to="/" href="/">
                 <b>MOVIECHILL</b>
             </Link>
