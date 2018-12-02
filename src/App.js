@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import { observer } from "mobx-react";
 import { observable } from "mobx";
+import api from './api';
+
 
 import './App.css';
 
+api.trendingAndPopular()
 
 @observer
 class App extends Component {
