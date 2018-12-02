@@ -18,7 +18,7 @@ class App extends Component {
                 <Redirect from="/person" to="/" />
                 <LayoutRoute path="/movie/:movie_id" component={MoviePage} />
                 <LayoutRoute path="/person/:person_id" component={PersonPage} />
-                <LayoutRoute path="/theme" component={ThemePage} />
+                <Route path="/theme" component={ThemePage} />
                 <Route path="/example" component={DefaultPage} />
                 <Route path="" component={NotFound} />
             </Switch>
