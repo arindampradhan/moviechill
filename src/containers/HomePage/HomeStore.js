@@ -4,8 +4,6 @@ import _ from 'lodash'
 
 configure({ enforceActions: "observed" })
 
-
-
 export class Home {
 
     // trending

@@ -1,0 +1,722 @@
+[
+    {
+        "cast_id": 2,
+        "character": "Newt Scamander",
+        "credit_id": "580513a392514170aa000e5c",
+        "gender": 2,
+        "id": 37632,
+        "name": "Eddie Redmayne",
+        "order": 0,
+        "profile_path": "/bHipa1GkpedD32w2OIRg5axdkQ6.jpg"
+    },
+    {
+        "cast_id": 14,
+        "character": "Porpentina \"Tina\" Goldstein",
+        "credit_id": "58a20f9a92514170730001ba",
+        "gender": 1,
+        "id": 77795,
+        "name": "Katherine Waterston",
+        "order": 1,
+        "profile_path": "/zgLVX4KJJ6hTD2niGLchkzjfWpJ.jpg"
+    },
+    {
+        "cast_id": 15,
+        "character": "Queenie Goldstein",
+        "credit_id": "58a20ff3c3a3682fcc0001dd",
+        "gender": 1,
+        "id": 998225,
+        "name": "Alison Sudol",
+        "order": 2,
+        "profile_path": "/w0ixLYjKN5I171bQ3XSsgW3Lte3.jpg"
+    },
+    {
+        "cast_id": 16,
+        "character": "Jacob Kowalski",
+        "credit_id": "58a21007c3a3682fd10001c3",
+        "gender": 2,
+        "id": 58873,
+        "name": "Dan Fogler",
+        "order": 3,
+        "profile_path": "/75hCIe6KHpHUlJDcyoxEp035BWz.jpg"
+    },
+    {
+        "cast_id": 23,
+        "character": "Albus Dumbledore",
+        "credit_id": "58ee854ac3a36847e1002c09",
+        "gender": 2,
+        "id": 9642,
+        "name": "Jude Law",
+        "order": 4,
+        "profile_path": "/4077Cyuo1mw53u1gNjLyQkqeZN0.jpg"
+    },
+    {
+        "cast_id": 17,
+        "character": "Credence Barebone",
+        "credit_id": "58a210279251417073000200",
+        "gender": 2,
+        "id": 132157,
+        "name": "Ezra Miller",
+        "order": 5,
+        "profile_path": "/1tgihUq8F6zPHU9IYyRZ7vI6nme.jpg"
+    },
+    {
+        "cast_id": 12,
+        "character": "Gellert Grindelwald",
+        "credit_id": "58192ab692514133b100186f",
+        "gender": 2,
+        "id": 85,
+        "name": "Johnny Depp",
+        "order": 6,
+        "profile_path": "/tQfBM7GqgLSWYao1Ljq8xczgP6j.jpg"
+    },
+    {
+        "cast_id": 1,
+        "character": "Leta Lestrange",
+        "credit_id": "57f74e1dc3a3683aff0006cb",
+        "gender": 1,
+        "id": 37153,
+        "name": "Zoë Kravitz",
+        "order": 7,
+        "profile_path": "/wcl5pdFDAUyDgJ1gfQErXch6FgH.jpg"
+    },
+    {
+        "cast_id": 24,
+        "character": "Theseus Scamander",
+        "credit_id": "58fa6196c3a36879db00095e",
+        "gender": 2,
+        "id": 1371041,
+        "name": "Callum Turner",
+        "order": 8,
+        "profile_path": "/lv52BMOn2LOgR3ZkUinsv96ip5j.jpg"
+    },
+    {
+        "cast_id": 29,
+        "character": "Nagini / The Maledictus",
+        "credit_id": "595a3e53c3a368293b03f020",
+        "gender": 1,
+        "id": 1401531,
+        "name": "Claudia Kim",
+        "order": 9,
+        "profile_path": "/zYiS1KJKEoLstzFA3DV5gwszzSC.jpg"
+    },
+    {
+        "cast_id": 43,
+        "character": "Seraphina Picquery",
+        "credit_id": "5a0ec166c3a368628600e42f",
+        "gender": 1,
+        "id": 37158,
+        "name": "Carmen Ejogo",
+        "order": 10,
+        "profile_path": "/dM1aLxViwbPrNZEUTDdVPOlsxB6.jpg"
+    },
+    {
+        "cast_id": 35,
+        "character": "Eulalie Hicks",
+        "credit_id": "59d8496a92514124eb01db87",
+        "gender": 1,
+        "id": 1394648,
+        "name": "Jessica Williams",
+        "order": 11,
+        "profile_path": "/A4syKjkcYB92wLEhH0c0hC3BCpz.jpg"
+    },
+    {
+        "cast_id": 25,
+        "character": "Yusuf Kama",
+        "credit_id": "595a3dfdc3a36828fc03743d",
+        "gender": 2,
+        "id": 87426,
+        "name": "William Nadylam",
+        "order": 12,
+        "profile_path": "/vgXaT9sxiFnkeLjPn5fgYxBqTpx.jpg"
+    },
+    {
+        "cast_id": 26,
+        "character": "Grimmson",
+        "credit_id": "595a3e22c3a368293b03efe6",
+        "gender": 2,
+        "id": 55584,
+        "name": "Ingvar Eggert Sigurðsson",
+        "order": 13,
+        "profile_path": "/rRzLj3miinQxIpPxJUzMdV9ZJb6.jpg"
+    },
+    {
+        "cast_id": 27,
+        "character": "Skender",
+        "credit_id": "595a3e32c3a3680dec00b3eb",
+        "gender": 2,
+        "id": 110902,
+        "name": "Ólafur Darri Ólafsson",
+        "order": 14,
+        "profile_path": "/fDUMXqM9UALD86fiC076XVgitDO.jpg"
+    },
+    {
+        "cast_id": 28,
+        "character": "Abernathy",
+        "credit_id": "595a3e42925141222b01fd08",
+        "gender": 0,
+        "id": 1204379,
+        "name": "Kevin Guthrie",
+        "order": 15,
+        "profile_path": "/cJgSv0hcv67GSTjvr1LTdRc0L7h.jpg"
+    },
+    {
+        "cast_id": 36,
+        "character": "Nicolas Flamel",
+        "credit_id": "59d84983c3a36861ec01df73",
+        "gender": 0,
+        "id": 85148,
+        "name": "Brontis Jodorowsky",
+        "order": 16,
+        "profile_path": "/qjMJeaIeWL0zItIikO4dOwtqt4c.jpg"
+    },
+    {
+        "cast_id": 31,
+        "character": "Spectrum (uncredited)",
+        "credit_id": "59ad48a7c3a3682c0a04463c",
+        "gender": 2,
+        "id": 1820018,
+        "name": "Tim Ingall",
+        "order": 17,
+        "profile_path": "/8TBgeYKRItgEkioHaXtSZerFjKM.jpg"
+    },
+    {
+        "cast_id": 32,
+        "character": "Muggle",
+        "credit_id": "59ad48bfc3a3682c220420ac",
+        "gender": 0,
+        "id": 1840374,
+        "name": "Deano Bugatti",
+        "order": 18,
+        "profile_path": null
+    },
+    {
+        "cast_id": 33,
+        "character": "Torquil Travers",
+        "credit_id": "59ad48e792514107230430d0",
+        "gender": 2,
+        "id": 143971,
+        "name": "Derek Riddell",
+        "order": 19,
+        "profile_path": "/wMvMNJs8q3Ntez8hPHkETYugtpf.jpg"
+    },
+    {
+        "cast_id": 34,
+        "character": "Krall",
+        "credit_id": "59c8a5b29251415b2406e4fd",
+        "gender": 2,
+        "id": 1180795,
+        "name": "David Sakurai",
+        "order": 20,
+        "profile_path": "/kC0o7PEqRLb6iciL7Y3MjMxh1dw.jpg"
+    },
+    {
+        "cast_id": 37,
+        "character": "",
+        "credit_id": "59d84996925141251401eac8",
+        "gender": 1,
+        "id": 43135,
+        "name": "Fiona Glascott",
+        "order": 21,
+        "profile_path": "/kGjh3zTBkAOtm1tM2qdHElBGqDp.jpg"
+    },
+    {
+        "cast_id": 38,
+        "character": "Spielman",
+        "credit_id": "59d849adc3a368622701c72d",
+        "gender": 2,
+        "id": 26396,
+        "name": "Wolf Roth",
+        "order": 22,
+        "profile_path": "/9rbfr5LM0eNaqvgAqo69OT69LjT.jpg"
+    },
+    {
+        "cast_id": 39,
+        "character": "Bunty",
+        "credit_id": "59d849c292514124c501e441",
+        "gender": 0,
+        "id": 1901525,
+        "name": "Victoria Yeates",
+        "order": 23,
+        "profile_path": null
+    },
+    {
+        "cast_id": 41,
+        "character": "Vinda Rosier",
+        "credit_id": "59d849d992514124eb01dc17",
+        "gender": 1,
+        "id": 1383392,
+        "name": "Poppy Corby-Tuech",
+        "order": 25,
+        "profile_path": "/9PXu0HV3BXeWTGAAR0tcZYU0hjn.jpg"
+    },
+    {
+        "cast_id": 42,
+        "character": "Arnold Guzman",
+        "credit_id": "59d849e6c3a368620001e9fd",
+        "gender": 2,
+        "id": 25135,
+        "name": "Cornell John",
+        "order": 26,
+        "profile_path": "/rl0EawwZcysnbKhoA4g99k8kLFf.jpg"
+    },
+    {
+        "cast_id": 30,
+        "character": "Doorman",
+        "credit_id": "59ad488ec3a3682bf003ebbd",
+        "gender": 0,
+        "id": 1882044,
+        "name": "Callum Forman",
+        "order": 27,
+        "profile_path": null
+    },
+    {
+        "cast_id": 45,
+        "character": "Muggle",
+        "credit_id": "5aa8040ac3a36839dd01d57b",
+        "gender": 0,
+        "id": 1655621,
+        "name": "Bernardo Santos",
+        "order": 28,
+        "profile_path": "/1rqDt8XAkSCS7NHBcYvwOdGVK0L.jpg"
+    },
+    {
+        "cast_id": 46,
+        "character": "Mrs. Lestrange",
+        "credit_id": "5aa8040a9251415e4201fe15",
+        "gender": 0,
+        "id": 1193021,
+        "name": "Sabine Crossen",
+        "order": 29,
+        "profile_path": "/hEFh33yiI22rlngVLe3cBmHuP0C.jpg"
+    },
+    {
+        "cast_id": 47,
+        "character": "Ministry of Magic Witch",
+        "credit_id": "5aa8040a0e0a263dca022023",
+        "gender": 0,
+        "id": 1898962,
+        "name": "Johanna Thea",
+        "order": 30,
+        "profile_path": "/uDjPbp6FNRB0xjFxFmKTF4LLmJi.jpg"
+    },
+    {
+        "cast_id": 48,
+        "character": "Acolyte",
+        "credit_id": "5aa8040a0e0a263dc4022599",
+        "gender": 1,
+        "id": 1717130,
+        "name": "Alexandra Ford",
+        "order": 31,
+        "profile_path": "/fbQWfmYoEMV6ixYSLCjYL2RhztS.jpg"
+    },
+    {
+        "cast_id": 49,
+        "character": "Circus Compare",
+        "credit_id": "5aa8040bc3a36839dd01d57f",
+        "gender": 0,
+        "id": 1812532,
+        "name": "Donna Preston",
+        "order": 32,
+        "profile_path": null
+    },
+    {
+        "cast_id": 50,
+        "character": "Senior Wizard",
+        "credit_id": "5aa8040b9251415e3902080b",
+        "gender": 0,
+        "id": 1785923,
+        "name": "Jag Patel",
+        "order": 33,
+        "profile_path": "/uChgXgHBAFBsy3a9NrCiL0klPMS.jpg"
+    },
+    {
+        "cast_id": 51,
+        "character": "Macusa Prison",
+        "credit_id": "5aa8040bc3a36839d502336c",
+        "gender": 0,
+        "id": 1997431,
+        "name": "Nasir Jama",
+        "order": 34,
+        "profile_path": null
+    },
+    {
+        "cast_id": 52,
+        "character": "Ministry of Magic Witch",
+        "credit_id": "5aa8040cc3a36839cb020e5d",
+        "gender": 0,
+        "id": 1641529,
+        "name": "Liv Hansen",
+        "order": 35,
+        "profile_path": "/jc3VWnMPe0zYx6uEQDkuuOtAD9h.jpg"
+    },
+    {
+        "cast_id": 53,
+        "character": "Chef",
+        "credit_id": "5aa8040cc3a36839da01fe32",
+        "gender": 0,
+        "id": 1610835,
+        "name": "Jason Redshaw",
+        "order": 36,
+        "profile_path": "/hGkK96PIcNGpfwzXzNg5GuPCX1V.jpg"
+    },
+    {
+        "cast_id": 54,
+        "character": "Wand Seller",
+        "credit_id": "5aa8040c9251415e4501f36a",
+        "gender": 1,
+        "id": 1743575,
+        "name": "Annarie Boor",
+        "order": 37,
+        "profile_path": "/mioZHOK2wXGOVc6Ue3pHnahR5Iz.jpg"
+    },
+    {
+        "cast_id": 55,
+        "character": "Wizard",
+        "credit_id": "5aa8040dc3a36839e1020c76",
+        "gender": 2,
+        "id": 1777483,
+        "name": "Deepak Anand",
+        "order": 38,
+        "profile_path": "/f6u0FjH44YEE9CeoDJvnQBMPuZn.jpg"
+    },
+    {
+        "cast_id": 56,
+        "character": "Circus Wizard",
+        "credit_id": "5aa8040dc3a36839ce02171f",
+        "gender": 0,
+        "id": 1363065,
+        "name": "Nick Owenford",
+        "order": 39,
+        "profile_path": null
+    },
+    {
+        "cast_id": 57,
+        "character": "Circus passerby",
+        "credit_id": "5aa8040d0e0a263dc70217c5",
+        "gender": 0,
+        "id": 1945372,
+        "name": "Jeremy Oliver",
+        "order": 40,
+        "profile_path": null
+    },
+    {
+        "cast_id": 58,
+        "character": "Muggle at Circus",
+        "credit_id": "5aa8040dc3a36839e1020c79",
+        "gender": 2,
+        "id": 1809625,
+        "name": "Dave Simon",
+        "order": 41,
+        "profile_path": "/pyDp7rqOyDUul5As9qYjx9a1Bot.jpg"
+    },
+    {
+        "cast_id": 59,
+        "character": "Shafiq",
+        "credit_id": "5aa8040e9251415e3c01f8f1",
+        "gender": 0,
+        "id": 1816343,
+        "name": "Aykut Hilmi",
+        "order": 42,
+        "profile_path": null
+    },
+    {
+        "cast_id": 60,
+        "character": "The Rowdy Frenchman",
+        "credit_id": "5aa8040e0e0a263dcd021cef",
+        "gender": 0,
+        "id": 1997432,
+        "name": "Andrew Blackall",
+        "order": 43,
+        "profile_path": null
+    },
+    {
+        "cast_id": 61,
+        "character": "Auror Chang",
+        "credit_id": "5aa8040e9251415e4501f36e",
+        "gender": 0,
+        "id": 1997433,
+        "name": "Simon Wan",
+        "order": 44,
+        "profile_path": null
+    },
+    {
+        "cast_id": 62,
+        "character": "Prisoner 001",
+        "credit_id": "5aa8040fc3a36839d10225d4",
+        "gender": 0,
+        "id": 1945370,
+        "name": "Phil Hodges",
+        "order": 45,
+        "profile_path": null
+    },
+    {
+        "cast_id": 63,
+        "character": "Cirque Arcanus Worker",
+        "credit_id": "5aa8040fc3a36839e4022aa9",
+        "gender": 0,
+        "id": 1663428,
+        "name": "Stephen McDade",
+        "order": 46,
+        "profile_path": null
+    },
+    {
+        "cast_id": 64,
+        "character": "Ministry of Magic Wizard",
+        "credit_id": "5aa8040f9251415e4b01f1b1",
+        "gender": 0,
+        "id": 1480577,
+        "name": "Israel Ruiz",
+        "order": 47,
+        "profile_path": null
+    },
+    {
+        "cast_id": 65,
+        "character": "Shopkeeper",
+        "credit_id": "5aa804100e0a263dc70217cb",
+        "gender": 0,
+        "id": 1651390,
+        "name": "Michael Haydon",
+        "order": 48,
+        "profile_path": "/7xB0NUK5CYsiLZWh8292iEgO2cD.jpg"
+    },
+    {
+        "cast_id": 66,
+        "character": "Credence's Aunt",
+        "credit_id": "5aa80410c3a36839e1020c7b",
+        "gender": 0,
+        "id": 1223228,
+        "name": "Linda Santiago",
+        "order": 49,
+        "profile_path": null
+    },
+    {
+        "cast_id": 67,
+        "character": "Muggle",
+        "credit_id": "5aa804109251415e3c01f8f4",
+        "gender": 0,
+        "id": 1997434,
+        "name": "Sean Gislingham",
+        "order": 50,
+        "profile_path": null
+    },
+    {
+        "cast_id": 68,
+        "character": "Wizard",
+        "credit_id": "5aa804110e0a263dd6021e16",
+        "gender": 0,
+        "id": 1997435,
+        "name": "Tahir Burhan",
+        "order": 51,
+        "profile_path": null
+    },
+    {
+        "cast_id": 69,
+        "character": "Teenager in House",
+        "credit_id": "5aa80411c3a36839dd01d587",
+        "gender": 0,
+        "id": 1997436,
+        "name": "Sean Coleman",
+        "order": 52,
+        "profile_path": null
+    },
+    {
+        "cast_id": 70,
+        "character": "Party Guest",
+        "credit_id": "5aa80411c3a36839d5023374",
+        "gender": 0,
+        "id": 1997437,
+        "name": "Adrian Wheeler",
+        "order": 53,
+        "profile_path": null
+    },
+    {
+        "cast_id": 71,
+        "character": "Old Carnie",
+        "credit_id": "5aa80411c3a36839ce021724",
+        "gender": 2,
+        "id": 1457380,
+        "name": "Morrison Thomas",
+        "order": 54,
+        "profile_path": "/vrWePUshfGsWcWJ8tsjWfaVYEYU.jpg"
+    },
+    {
+        "cast_id": 72,
+        "character": "",
+        "credit_id": "5aa804129251415e4501f376",
+        "gender": 0,
+        "id": 219600,
+        "name": "Andrew Turner",
+        "order": 55,
+        "profile_path": null
+    },
+    {
+        "cast_id": 73,
+        "character": "Parisian Woman",
+        "credit_id": "5aa804120e0a263dd6021e1c",
+        "gender": 0,
+        "id": 1997438,
+        "name": "Natalie Lauren",
+        "order": 56,
+        "profile_path": null
+    },
+    {
+        "cast_id": 74,
+        "character": "Red Haired Young Witch",
+        "credit_id": "5aa804129251415e3c01f8fe",
+        "gender": 1,
+        "id": 1765394,
+        "name": "Alfrun Rose",
+        "order": 57,
+        "profile_path": "/mH957yASIJ4CG9P9PoxkhaAoZdI.jpg"
+    },
+    {
+        "cast_id": 75,
+        "character": "Wizard",
+        "credit_id": "5aa804139251415e4b01f1b7",
+        "gender": 0,
+        "id": 1997439,
+        "name": "Jan Freygang",
+        "order": 58,
+        "profile_path": null
+    },
+    {
+        "cast_id": 76,
+        "character": "Sailor",
+        "credit_id": "5aa804139251415e4b01f1be",
+        "gender": 0,
+        "id": 1997440,
+        "name": "Ryan Hannaford",
+        "order": 59,
+        "profile_path": null
+    },
+    {
+        "cast_id": 77,
+        "character": "Muggle",
+        "credit_id": "5aa804139251415e4801f0ce",
+        "gender": 0,
+        "id": 1997441,
+        "name": "Connor Wolf",
+        "order": 60,
+        "profile_path": null
+    },
+    {
+        "cast_id": 78,
+        "character": "Carrow",
+        "credit_id": "5aa80414c3a36839e1020c87",
+        "gender": 0,
+        "id": 1997442,
+        "name": "Maja Bloom",
+        "order": 61,
+        "profile_path": null
+    },
+    {
+        "cast_id": 79,
+        "character": "New Yorker",
+        "credit_id": "5aa80414c3a36839cb020e6a",
+        "gender": 2,
+        "id": 1997443,
+        "name": "Andy Summers",
+        "order": 62,
+        "profile_path": "/rHyurvOObLCeZeayhMMm2l3F9BK.jpg"
+    },
+    {
+        "cast_id": 83,
+        "character": "Melusine",
+        "credit_id": "5bf19d529251415cdd05f43b",
+        "gender": 1,
+        "id": 933272,
+        "name": "Olwen Fouéré",
+        "order": 63,
+        "profile_path": "/a00r646rdcWavC9fT9IXMeMYbsQ.jpg"
+    },
+    {
+        "cast_id": 84,
+        "character": "Krafft",
+        "credit_id": "5bf19fc2c3a368189f06a39a",
+        "gender": 2,
+        "id": 1017597,
+        "name": "Simon Meacock",
+        "order": 64,
+        "profile_path": "/pD4BLgsHtIcIvcIOEK4xce0xRpw.jpg"
+    },
+    {
+        "cast_id": 85,
+        "character": "Portkey Trout",
+        "credit_id": "5bf1a03f9251415cc1061f2c",
+        "gender": 0,
+        "id": 73287,
+        "name": "David Wilmot",
+        "order": 65,
+        "profile_path": "/qc5ABw9XRIx6LP2rElYIJb9JTgj.jpg"
+    },
+    {
+        "cast_id": 86,
+        "character": "French Policeman",
+        "credit_id": "5bf1a08ec3a36818aa063291",
+        "gender": 2,
+        "id": 147797,
+        "name": "Ed Gaughan",
+        "order": 66,
+        "profile_path": "/io3lmTr6PNunUqPW73kXpIkL6QB.jpg"
+    },
+    {
+        "cast_id": 87,
+        "character": "Young Grindelwald",
+        "credit_id": "5bf1a0f3c3a368189f06a604",
+        "gender": 2,
+        "id": 83356,
+        "name": "Jamie Campbell Bower",
+        "order": 67,
+        "profile_path": "/wzuENDUCak8HKRh72Jj7p3BQ7NY.jpg"
+    },
+    {
+        "cast_id": 88,
+        "character": "Young Dumbledore",
+        "credit_id": "5bf1a126c3a36818b606f009",
+        "gender": 2,
+        "id": 116606,
+        "name": "Toby Regbo",
+        "order": 68,
+        "profile_path": "/a8CuXhqdtjICxLNwm0yrydDo5Yy.jpg"
+    },
+    {
+        "cast_id": 89,
+        "character": "Mustafa Kama",
+        "credit_id": "5bf1a1b19251415cd905fe0c",
+        "gender": 2,
+        "id": 31925,
+        "name": "Hugh Quarshie",
+        "order": 69,
+        "profile_path": "/b6RSuGFTvpDe3WIdWglzfs0kyES.jpg"
+    },
+    {
+        "cast_id": 90,
+        "character": "Laurena Kama",
+        "credit_id": "5bf1a1d00e0a262661068939",
+        "gender": 0,
+        "id": 1266868,
+        "name": "Isaura Barbé-Brown",
+        "order": 70,
+        "profile_path": "/3vgl0dbTMN5DyBEnWAZ8O0jZtPq.jpg"
+    },
+    {
+        "cast_id": 91,
+        "character": "Corvus Lestrange Senior",
+        "credit_id": "5bf1a201c3a36818a5064ab7",
+        "gender": 0,
+        "id": 1314278,
+        "name": "Keith Chanter",
+        "order": 71,
+        "profile_path": null
+    },
+    {
+        "cast_id": 92,
+        "character": "Alf Choo",
+        "credit_id": "5bf2148a0e0a26265e077328",
+        "gender": 0,
+        "id": 2178383,
+        "name": "Tristan Mamasakhlisashvili",
+        "order": 72,
+        "profile_path": "/pu722hoCjM3ZeGjm2h5J2TtkhWr.jpg"
+    }
+]

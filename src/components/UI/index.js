@@ -10,6 +10,14 @@ export function AgeIcon({age}) {
     )
 }
 
+export function Label({ children }) {
+    return (
+        <span className="age--icon text-white">
+            {children}
+        </span>
+    )
+}
+
 export function TogglerView({onList, onCarousel}) {
     return (<div className="toggler-view">
         <i className="fas fa-grip-horizontal" onClick={onCarousel}></i>

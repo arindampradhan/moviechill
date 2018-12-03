@@ -43,7 +43,7 @@ const config = {
 const getImage = {
   backdrop: (url) =>  `${config.images.secure_base_url}${config.images.backdrop_sizes[1]}/${url}`,
   logo: (url) =>  `${config.images.secure_base_url}${config.images["logo_sizes"][1]}/${url}`,
-  poster: (url) =>  `${config.images.secure_base_url}${config.images["poster_sizes"][1]}/${url}`,
+  poster: (url) =>  `${config.images.secure_base_url}${config.images["poster_sizes"][6]}/${url}`,
   profile: (url) =>  `${config.images.secure_base_url}${config.images["profile_sizes"][1]}/${url}`,
   still: (url) =>  `${config.images.secure_base_url}${config.images["still_sizes"][1]}/${url}`,
 }
