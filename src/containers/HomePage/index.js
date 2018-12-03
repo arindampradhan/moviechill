@@ -76,8 +76,8 @@ class HomePage extends Component {
             </div>
             <div className="col text-right">
               <TogglerView
-                onCarousel={() => this.setState({ trending: 'a' })}
-                onList={() => this.setState({ trending: 'b' })}
+                onCarousel={() => this.setState({ popular: 'a' })}
+                onList={() => this.setState({ popular: 'b' })}
               />
             </div>
           </div>
@@ -93,8 +93,8 @@ class HomePage extends Component {
             </div>
             <div className="col text-right">
               <TogglerView
-                onCarousel={() => this.setState({ trending: 'a' })}
-                onList={() => this.setState({ trending: 'b' })}
+                onCarousel={() => this.setState({ top_rated: 'a' })}
+                onList={() => this.setState({ top_rated: 'b' })}
               />
             </div>
           </div>

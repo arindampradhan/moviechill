@@ -16,12 +16,12 @@ function Header() {
                             Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link " to="/people/">
-                            People</Link>
+                            <Link className="nav-link " to="/discover/popular">
+                                Popular</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/Movies">
-                            Movies</Link>
+                        <Link className="nav-link" to="/discover/theatres">
+                            Theatres</Link>
                     </li>
 
                     <li className="nav-item">
