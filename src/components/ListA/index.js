@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 import getImage from '../../utils/images';
 import AgeIcon from '../UI'
+import {Link} from 'react-router-dom'
 
 import PropTypes from 'prop-types';
     // {
@@ -29,7 +30,7 @@ function ListItem({data}) {
                 <img src={getImage.backdrop(data.backdrop_path)} className="img-fluid" alt={data.original_title}></img>
         </div>
         <div className="col-8 col-md-9">
-            <h4>{data.title}</h4>
+                <Link to={`/movie/${data.id}`}><h4>{data.title}</h4></Link>
                 <span className="text-warning font-weight-normal">{data.vote_average} Rating&nbsp;</span>
                 <span>{data.title} - {new Date(data.release_date).getFullYear()}</span>
                 <span>

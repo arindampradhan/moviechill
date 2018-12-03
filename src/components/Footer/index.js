@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.scss';
+import {Link } from 'react-router-dom';
+
 
 function Footer() {
     return (
@@ -19,19 +21,22 @@ function Footer() {
                     {/* Grid column */}
                     <div className="col-md-2 mx-auto">
                         {/* Links */}
-                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Movies</h5>
                         <ul className="list-unstyled">
                             <li>
-                                <a href="#!">Link 1</a>
+                                <Link to="/movie/459243">Pihalla</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 2</a>
+                                <Link to="/movie/335983">Venom</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 3</a>
+                                <Link to="/movie/375588">Robin Hood</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 4</a>
+                                <Link to="/movie/360920">The Grinch</Link>
+                            </li>
+                            <li>
+                                <Link to="/movie/424694">Bohemian Rhapsody</Link>
                             </li>
                         </ul>
                     </div>
@@ -40,19 +45,19 @@ function Footer() {
                     {/* Grid column */}
                     <div className="col-md-2 mx-auto">
                         {/* Links */}
-                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Actors</h5>
                         <ul className="list-unstyled">
                             <li>
-                                <a href="#!">Link 1</a>
+                                <Link to="/person/17838">Rami Malek</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 2</a>
+                                <Link to="/person/1452045">Ben Hardy</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 3</a>
+                                <Link to="/person/2524">Tom Hardy</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 4</a>
+                                <Link to="/person/37632">Eddie Redmayne</Link>
                             </li>
                         </ul>
                     </div>
@@ -61,19 +66,16 @@ function Footer() {
                     {/* Grid column */}
                     <div className="col-md-2 mx-auto">
                         {/* Links */}
-                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Discover</h5>
                         <ul className="list-unstyled">
                             <li>
-                                <a href="#!">Link 1</a>
+                                <Link to="/discover/popular">Popular</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 2</a>
+                                <Link to="/discover/r_rated/">R Rated</Link>
                             </li>
                             <li>
-                                <a href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 4</a>
+                                <Link to="/discover/best_drama/">Best Drama</Link>
                             </li>
                         </ul>
                     </div>
@@ -89,7 +91,7 @@ function Footer() {
                     <h5 className="mb-1">Register for free</h5>
                 </li>
                 <li className="list-inline-item">
-                    <a href="#!" className="btn btn-danger margin-b-5">Sign up!</a>
+                    <Link to="#!" className="btn btn-danger margin-b-5">Sign up!</Link>
                 </li>
             </ul>
             {/* Call to action */}
