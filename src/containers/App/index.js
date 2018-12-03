@@ -18,6 +18,7 @@ class App extends Component {
                 <Redirect exact from="/movie" to="/"/>
                 <Redirect exact from="/person" to="/" />
                 <Redirect exact from="/discover" to="/" />
+                <LayoutRoute path="/about" component={DefaultPage} />
                 <LayoutRoute path="/movie/:movie_id" component={MoviePage} />
                 <LayoutRoute path="/person/:person_id" component={PersonPage} />
                 <LayoutRoute path="/discover/:type" component={DiscoverPage} />

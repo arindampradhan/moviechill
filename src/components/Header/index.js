@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import './style.scss';
+import SearchBar from '../SearchBar'
 
 function Header() {
     return (
@@ -34,8 +35,10 @@ function Header() {
                     </li>
                 </ul>
             </div>
+                <div className="w-50 flex-row ml-md-auto d-none d-md-block">
+                <SearchBar />
+                </div>
             <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-    
                 <li className="nav-item">
                         <Link className="nav-link text-white" to="/discover/kids/">
                             Kids</Link>
