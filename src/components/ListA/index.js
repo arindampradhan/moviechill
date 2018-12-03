@@ -26,19 +26,19 @@ import PropTypes from 'prop-types';
 function ListItem({data}) {
     return (
         <div className="row list-item-a">
-        <div className="col-4 col-md-3">
-                <img src={getImage.backdrop(data.backdrop_path)} className="img-fluid" alt={data.original_title}></img>
-        </div>
-        <div className="col-8 col-md-9">
-                <Link to={`/movie/${data.id}`}><h4>{data.title}</h4></Link>
-                <span className="text-warning font-weight-normal">{data.vote_average} Rating&nbsp;</span>
-                <span>{data.title} - {new Date(data.release_date).getFullYear()}</span>
-                <span>
-                    &nbsp;&nbsp;
-                                {data.adult ? <AgeIcon age={16} /> : <AgeIcon age={13} />}
-                </span>
-            <p>{data.overview}</p>
-        </div>
+            <div className="col-12 col-sm-4 col-md-3">
+                    <img src={getImage.backdrop(data.backdrop_path)} className="img-fluid" alt={data.original_title}></img>
+            </div>
+            <div className="col-12 col-sm-8 col-md-9">
+                    <Link to={`/movie/${data.id}`}><h4>{data.title}</h4></Link>
+                    <span className="text-warning font-weight-normal">{data.vote_average} Rating&nbsp;</span>
+                    <span>{data.title} - {new Date(data.release_date).getFullYear()}</span>
+                    <span>
+                        &nbsp;&nbsp;
+                                    {data.adult ? <AgeIcon age={16} /> : <AgeIcon age={13} />}
+                    </span>
+                <p>{data.overview}</p>
+            </div>
         </div>
     )
 }

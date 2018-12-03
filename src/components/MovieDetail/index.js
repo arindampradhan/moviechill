@@ -20,7 +20,7 @@ function MovieDetail({ title, original_title, overview, release_date, poster_pat
             <div className="container">
                 <MovieRowDiv className="row" poster_path={backdrop_path || poster_path}>
                     <div className="classy-2">
-                        <div className="col-6 padding-t-60">
+                        <div className="col-12 col-md-6 padding-t-60">
                         <Link to={`/movie/${rest.id}`}><h1 className="margin-0">{title}</h1></Link>
                         <div className="font-weight-bold text-white padding-t-5 padding-b-15">
                             <span className="text-warning font-weight-normal">{vote_average} Rating&nbsp;</span>
@@ -32,7 +32,7 @@ function MovieDetail({ title, original_title, overview, release_date, poster_pat
                         </div>
                         <p className="text-white">{overview}</p>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6">
                     </div>
                     </div>
                 </MovieRowDiv>
