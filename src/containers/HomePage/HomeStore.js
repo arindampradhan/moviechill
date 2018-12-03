@@ -1,5 +1,6 @@
 import api, { discoverMovie } from '../../api';
 import { observable, autorun, action, computed, configure, runInAction } from "mobx";
+import _ from 'lodash'
 
 configure({ enforceActions: "observed" })
 
@@ -25,6 +26,12 @@ export class Home {
         search_results: 'pending'
     };
 
+    @computed get random_movie() {
+        if (this.discover.length) {
+            return this.discover[_.random(0, this.discover.length)]
+        }
+        return null
+    }
     
     @action("TRENDING_AND_POPULAR")
     getTrendingAndPopular() {

@@ -13,11 +13,11 @@ const MovieRowDiv = styled.div`
 `
 
 
-function MovieDetail({ title, original_title, overview, release_date, poster_path, vote_average, adult, ...rest }) {
+function MovieDetail({ title, original_title, overview, release_date, poster_path, vote_average, adult, backdrop_path, ...rest }) {
     return (
         <div className="MovieDetail container-fluid padding-0 animated fadeIn">
             <div className="container">
-                <MovieRowDiv className="row padding-t-60" poster_path={poster_path}>
+                <MovieRowDiv className="row padding-t-60" poster_path={backdrop_path || poster_path}>
                     <div className="col-6">
                         <h1 className="margin-0">{title}</h1>
                         <div className="font-weight-bold text-white padding-t-5 padding-b-15">

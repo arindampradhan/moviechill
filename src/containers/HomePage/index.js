@@ -7,7 +7,7 @@ import '../../styles/pages/home.scss';
 import { TogglerView, DiscoverDiv } from '../../components/UI'
 import {Link} from 'react-router-dom'
 import MovieDetail from '../../components/MovieDetail';
-
+import Categories from '../../components/Categories'
 @observer(["home"])
 class HomePage extends Component {
   state = {
@@ -37,8 +37,7 @@ class HomePage extends Component {
   }
 
   render() {
-    const {discover, popular, top_rated, trending} = this.props.home;
-    const random_movie = discover[_.random(0, discover.length)]
+    const { discover, popular, top_rated, trending, random_movie} = this.props.home;
     return (
       <div className="container-fluid">
         {random_movie ? (
@@ -65,7 +64,7 @@ class HomePage extends Component {
                 />
             </div>
           </div>
-          {this.state.trending === 'a' ? <CarouselA dataList={trending} /> : <ListA dataList={trending} />}
+          {this.state.trending === 'a' ? <CarouselA dataList={trending} /> : <ListA length={5} dataList={trending.slice(0,5)} />}
         </div>
         <div className="gap-30"></div>
 
@@ -82,7 +81,7 @@ class HomePage extends Component {
               />
             </div>
           </div>
-          {this.state.popular === 'a' ? <CarouselA dataList={popular} /> : <ListA dataList={popular} />}
+          {this.state.popular === 'a' ? <CarouselA dataList={popular} /> : <ListA length={5} dataList={popular.slice(0, 10)} />}
         </div>
         <div className="gap-30"></div>
 
@@ -99,49 +98,11 @@ class HomePage extends Component {
               />
             </div>
           </div>
-          {this.state.top_rated === 'a' ? <CarouselA dataList={top_rated} /> : <ListA dataList={top_rated} />}
+          {this.state.top_rated === 'a' ? <CarouselA dataList={top_rated} /> : <ListA length={10} dataList={top_rated.slice(0, 10)} />}
         </div>
         <div className="gap-30"></div>
         <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <h5 className="section-title">Categories</h5>
-          </div>
-          <div className="col-12">
-            <div className="row">
-              <div className="col-4 col-md-2">
-                <Link to="/discover/theatres/">
-                  <DiscoverDiv gradient="linear-gradient(to bottom, #fd5183, #f04275)">theatres</DiscoverDiv>
-                </Link>
-              </div>
-              <div className="col-4 col-md-2">
-                  <Link to="/discover/science_fiction/">
-                <DiscoverDiv gradient="linear-gradient(to bottom, #ffc852, #eeb843)" >science_fiction</DiscoverDiv>
-                </Link>
-              </div>
-              <div className="col-4 col-md-2">
-                <Link to="/discover/dramas/">
-                  <DiscoverDiv gradient="linear-gradient(to bottom, #81a7fc, #6e96ef)" >dramas</DiscoverDiv>
-                </Link>
-              </div>
-              <div className="col-4 col-md-2">
-                  <Link to="/discover/r_rated/">
-                <DiscoverDiv gradient="linear-gradient(to bottom, #bf64ff, #ab50eb)" >R rated</DiscoverDiv>
-                </Link>
-              </div>
-              <div className="col-4 col-md-2">
-                  <Link to="/discover/best_drama/">
-                <DiscoverDiv gradient="linear-gradient(to bottom, #bf64ff, #ab50eb)" >best_drama</DiscoverDiv>
-                </Link>
-              </div>
-              <div className="col-4 col-md-2">
-                <Link to="/discover/kids/">
-                  <DiscoverDiv gradient="linear-gradient(to bottom, #bf64ff, #fd5183)" >kids</DiscoverDiv>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+          <Categories/>
         </div>
       </div>
     )
