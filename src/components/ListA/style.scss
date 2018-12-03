@@ -1,0 +1,12 @@
+@import '../../styles/theme/variables';
+
+.ListA {
+    .list-item-a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        &:hover {
+            background-image: linear-gradient(to left, #434343 0%, black 100%);
+        }
+    }
+}

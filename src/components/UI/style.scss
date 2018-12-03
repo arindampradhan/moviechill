@@ -1,0 +1,19 @@
+@import '../../styles/theme/variables';
+
+.age--icon {
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.toggler-view {
+    i {
+        border: 1px solid #efefef;
+        color: white;
+        padding: 2px;
+    }
+
+    border-radius: 2px;
+    padding: 2px;
+}

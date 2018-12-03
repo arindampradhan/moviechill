@@ -1,0 +1,7 @@
+@import '../../styles/theme/variables';
+
+.MovieDetail {
+    min-height: 30vh;
+    z-index: 10000;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}

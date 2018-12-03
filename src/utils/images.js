@@ -41,11 +41,11 @@ const config = {
   }
 }
 const getImage = {
-  backdrop_sizes: (url) =>  `${config.secure_base_url}/${config.images["backdrop_sizes"]}/${url}`,
-  logo_sizes: (url) =>  `${config.secure_base_url}/${config.images["logo_sizes"]}/${url}`,
-  poster_sizes: (url) =>  `${config.secure_base_url}/${config.images["poster_sizes"]}/${url}`,
-  profile_sizes: (url) =>  `${config.secure_base_url}/${config.images["profile_sizes"]}/${url}`,
-  still_sizes: (url) =>  `${config.secure_base_url}/${config.images["still_sizes"]}/${url}`,
+  backdrop: (url) =>  `${config.images.secure_base_url}${config.images.backdrop_sizes[1]}/${url}`,
+  logo: (url) =>  `${config.images.secure_base_url}${config.images["logo_sizes"][1]}/${url}`,
+  poster: (url) =>  `${config.images.secure_base_url}${config.images["poster_sizes"][1]}/${url}`,
+  profile: (url) =>  `${config.images.secure_base_url}${config.images["profile_sizes"][1]}/${url}`,
+  still: (url) =>  `${config.images.secure_base_url}${config.images["still_sizes"][1]}/${url}`,
 }
 
 export default getImage

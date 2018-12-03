@@ -2,6 +2,9 @@ import api, { discoverMovie } from '../../api';
 import { observable, autorun, action, computed, configure, runInAction } from "mobx";
 
 configure({ enforceActions: "observed" })
+
+
+
 export class Home {
 
     // trending
@@ -33,9 +36,9 @@ export class Home {
         api.trendingAndPopular().then(response => {
             runInAction(() => {
                 this.state.trending = 'success'
-                this.trending = response.trending_all_day
-                this.popular = response.popular
-                this.top_rated = response.top_rated
+                this.trending = response.trending_all_day.results
+                this.popular = response.popular.results
+                this.top_rated = response.top_rated.results
             })
         }).catch(() => {
             runInAction(() => {
@@ -51,7 +54,7 @@ export class Home {
         api.discoverMovie(type,primary_release_year).then(response => {
             runInAction(() => {
                 this.state.discover = 'success'
-                this.discover = response
+                this.discover = response.results
             })
         }).catch(() => {
             runInAction(() => {
