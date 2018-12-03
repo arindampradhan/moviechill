@@ -59,7 +59,7 @@ ListA.propTypes = {
 }
 
 ListA.defaultProps = {
-    dataList: []
+    dataList: [],
 }
 
 export default ListA;
