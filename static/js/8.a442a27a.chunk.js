@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{201:function(e,t,n){"use strict";n.r(t);var a=n(0),c=n.n(a);t.default=function(e){var t=e.history;return c.a.createElement("div",{className:"container padding-t-200 text-center"},c.a.createElement("h1",{className:"text-primary"},"Not Found"),c.a.createElement("button",{className:"btn btn-outline-secondary btn-lg",onClick:t.goBack},"Go Back"))}}}]);
+//# sourceMappingURL=8.a442a27a.chunk.js.map
