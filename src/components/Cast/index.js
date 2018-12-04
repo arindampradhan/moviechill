@@ -1,10 +1,9 @@
 import React , {Component} from 'react';
 import './style.scss';
 import Slider from "react-slick";
-import example from './example.json';
 import getImage from '../../utils/images';
 import {Link} from 'react-router-dom';
-
+import PropTypes from 'prop-types';
 
 class Cast extends Component {
     state = {
@@ -87,10 +86,17 @@ function ActorItem({ character, profile_path, name, id}) {
             </Link>
             </div>
             <div className="col-11">
-                <img className="img-fluid" alt={name} src={getImage.backdrop(profile_path) || '/images/blur.jpg'}></img>
+                <img className="img-fluid" alt={name} src={profile_path ? getImage.backdrop(profile_path) : getImage.blur()}></img>
             </div>
         </div>
     )
+}
+
+ActorItem.propTypes = {
+    character: PropTypes.string,
+    profile_path: PropTypes.string,
+    name: PropTypes.string,
+    id: PropTypes.number
 }
 
 export default Cast;

@@ -6,15 +6,20 @@ import getImage from '../../utils/images';
 import MovieDetail from '../MovieDetail';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+
+
 const CarouselCover = styled.div`
-    background:  ${props => `url(${getImage.backdrop(props.backdrop_path)})`};;
+    background:  ${props => `url(${props.backdrop_path ? getImage.backdrop(props.backdrop_path): getImage.random()})`};;
     min-height: 125px;
     max-width: 210px;
     margin-right: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    transition-timing-function: ease-in;
 
+    /* Quick on the way out */
+    transition: 0.2s;
     .title {
         font-weight: 500;
         height: 100%;
@@ -35,7 +40,20 @@ function CarouselItem({ data }) {
         </CarouselCover>
     )
 }
+CarouselItem = React.memo(CarouselItem)
 
+CarouselItem.propTypes = {
+    data: PropTypes.shape({
+        backdrop_path: PropTypes.string,
+        title: PropTypes.string.isRequired
+    })
+}
+
+CarouselItem.defaultProps = {
+    data: {
+        backdrop_path: getImage.random()
+    }
+}
 
 class Responsive extends Component {
     state = {
@@ -69,10 +87,15 @@ class Responsive extends Component {
         var settings = {
             arrows: this.props.arrows,
             infinite: false,
-            speed: 500,
             slidesToShow: 5,
             slidesToScroll: 5,
             initialSlide: 0,
+
+            autoplay: this.props.autoplay,
+            speed: 800,
+            autoplaySpeed: 3200,
+            cssEase: "ease-out",
+
             responsive: [
                 {
                     breakpoint: 1024,
@@ -114,7 +137,11 @@ class Responsive extends Component {
                     ))}
                 </Slider>
                 <div className="gap-10"></div>
-                {this.state.hovered ? <MovieDetail {...this.state.current} />: null}
+                {this.props.showDetails ? (
+                    <>
+                        {this.state.hovered ? <MovieDetail {...this.state.current} /> : null}
+                    </>
+                ): null}
             </React.Fragment>
         );
     }
@@ -122,11 +149,16 @@ class Responsive extends Component {
 
 Responsive.propTypes = {
     dataList: PropTypes.array,
-    arrows: true,
+    arrows: PropTypes.bool,
+    showDetails: PropTypes.bool,
+    autoplay: PropTypes.bool
 }
 
 Responsive.defaultProps = {
-    dataList: []
+    dataList: [],
+    arrows: true,
+    showDetails: true,
+    autoplay: true,
 }
 
 export default Responsive;

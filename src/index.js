@@ -9,7 +9,7 @@ import PersonStore from './containers/PersonPage/PersonStore';
 import { RouterStore, syncHistoryWithStore } from 'mobx-react-router';
 import { Router } from 'react-router';
 import { enableLogging } from 'mobx-logger';
-
+import ScrollToTop from './components/ScrollToTop/index'
 import App from './containers/App';
 // import * as serviceWorker from './serviceWorker';
 import './styles/main.scss';
@@ -35,7 +35,7 @@ const stores = {
 };
 
 const config = { 
-    predicate: () => true ,
+    predicate: () => true,
     action: true,
     // reaction: true,
     // transaction: true | false,
@@ -50,7 +50,9 @@ const history = syncHistoryWithStore(browserHistory, routingStore);
 ReactDOM.render(
     <Provider {...stores}>
         <Router history={history}>
-            <App />
+            <ScrollToTop>
+                <App />
+            </ScrollToTop>
         </Router>
     </Provider>,
     document.getElementById('root')

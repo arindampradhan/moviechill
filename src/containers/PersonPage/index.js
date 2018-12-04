@@ -12,7 +12,7 @@ class PersonPage extends Component {
         }
     }
 
-    componentWillReceiveProps(nextProps) {
+    componentDidUpdate(nextProps) {
         const { person, match } = this.props
         const { match: match2 } = nextProps
         if (match.params.person_id !== match2.params.person_id) {

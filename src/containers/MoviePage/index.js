@@ -15,7 +15,7 @@ class MoviePage extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(nextProps) {
     const { movie, match } = this.props
     const { match: match2 } = nextProps
     if (match.params.movie_id !== match2.params.movie_id) {

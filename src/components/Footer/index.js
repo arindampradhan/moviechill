@@ -85,18 +85,6 @@ function Footer() {
             </div>
             {/* Footer Links */}
             <hr />
-            {/* Call to action */}
-            <ul className="list-unstyled list-inline text-center py-2">
-                <li className="list-inline-item">
-                    <h5 className="mb-1">Register for free</h5>
-                </li>
-                <li className="list-inline-item">
-                    <Link to="#!" className="btn btn-danger margin-b-5">Sign up!</Link>
-                </li>
-            </ul>
-            {/* Call to action */}
-            <hr />
-            {/* Social buttons */}
             {/* Copyright */}
             <div className="footer-copyright text-center py-3">© 2018 Copyright:
                 <a href="https://mdbootstrap.com/education/bootstrap/"> Moviechill.com</a>

@@ -20,7 +20,7 @@ class DiscoverPage extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(nextProps) {
     const { home,match } = this.props
     const { match: match2 } = nextProps
     if (match.params.type !== match2.params.type) {

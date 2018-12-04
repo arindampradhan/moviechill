@@ -23,11 +23,9 @@ function filterOptions(response) {
 }
 
 const loadOptions = (inputValue, callback) => {
-    _.defer((inputValue)=> {
-        return api.searchMovie(inputValue).then(response => {
-            return callback(filterOptions(response))
-        })
-    },1000)
+    api.searchMovie(inputValue).then(response => {
+        callback(filterOptions(response))
+    })
 
     // setTimeout(() => {
     //     callback(filterColors(inputValue))
@@ -53,6 +51,13 @@ class WithCallbacks extends Component {
     render() {
         return (
             <AsyncSelect
+                placeholder="Search movie, titles"
+                // components={{ 
+                //     DropdownIndicator: (
+                //             <i className="fas fa-search"></i>
+                //     ) 
+                // }}
+                name="movie-search"
                 onChange={this.handleSelectChange}
                 cacheOptions
                 loadOptions={loadOptions}

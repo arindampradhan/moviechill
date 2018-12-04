@@ -30,10 +30,7 @@ class HomePage extends Component {
 
   handleSearch = (e) => {
     const { home } = this.props
-
-    _.debounce(() => {
-      home.searchMovie(e.target.value)
-    },1000)
+    _.debounce(home.searchMovie(e.target.value),1300)
   }
 
   render() {
@@ -48,7 +45,7 @@ class HomePage extends Component {
         
         {/* Top Rated */}
         <div className="container-fluid padding-t-10">
-          <CarouselA dataList={discover} arrows={false} hoverAllowed={false}/> 
+          <CarouselA dataList={discover} arrows={false} showDetails={false} autoplay={true} /> 
         </div>
         <div className="gap-30"></div>
         {/* Trending */}

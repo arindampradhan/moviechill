@@ -26,7 +26,7 @@ export class Home {
 
     @computed get random_movie() {
         if (this.discover.length) {
-            return this.discover[_.random(0, this.discover.length)]
+            return this.discover[_.random(0, this.discover.length - 1)]
         }
         return null
     }
