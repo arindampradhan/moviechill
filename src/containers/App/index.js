@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import LayoutRoute from '../../components/LayoutRoute';
-// import Example from '../Example/Loadable';
+import Example from '../Example/Loadable';
 import ThemePage from '../BootstrapTheme/Loadable';
 import HomePage from '../HomePage/Loadable';
 import MoviePage from '../MoviePage/Loadable';
@@ -18,7 +18,7 @@ class App extends Component {
                 <Redirect exact from="/movie" to="/"/>
                 <Redirect exact from="/person" to="/" />
                 <Redirect exact from="/discover" to="/" />
-                <LayoutRoute path="/about" component={DefaultPage} />
+                <Route path="/about" component={Example} />
                 <LayoutRoute path="/movie/:movie_id" component={MoviePage} />
                 <LayoutRoute path="/person/:person_id" component={PersonPage} />
                 <LayoutRoute path="/discover/:type" component={DiscoverPage} />
