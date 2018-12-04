@@ -6,7 +6,7 @@ import getImage from '../../utils/images';
 import MovieDetail from '../MovieDetail';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-
+import {withRouter} from 'react-router-dom';
 
 const CarouselCover = styled.div`
     background:  ${props => `url(${props.backdrop_path ? getImage.backdrop(props.backdrop_path): getImage.random()})`};;
@@ -83,6 +83,12 @@ class Responsive extends Component {
         }
     }
 
+    onMouseCapture = (movie_id) => {
+        if (!this.props.showDetails) {
+            this.props.history.push(`/movie/${movie_id}`)
+        }
+    }
+
     render() {
         var settings = {
             arrows: this.props.arrows,
@@ -129,7 +135,8 @@ class Responsive extends Component {
                             className="display-contents"
                             key={`carousel-${index}`}
                             onMouseEnter={() => this.mouseEnter(item, true)}
-                            onClick={() => this.mouseEnter(item, !this.state.hovered)}  
+                            onClick={() => this.mouseEnter(item, !this.state.hovered)}
+                            onMouseUpCapture={() => this.onMouseCapture(item.id)}
                         >
                             <CarouselItem data={item} 
                             />
@@ -151,7 +158,8 @@ Responsive.propTypes = {
     dataList: PropTypes.array,
     arrows: PropTypes.bool,
     showDetails: PropTypes.bool,
-    autoplay: PropTypes.bool
+    autoplay: PropTypes.bool,
+    history: PropTypes.object.isRequired
 }
 
 Responsive.defaultProps = {
@@ -161,4 +169,4 @@ Responsive.defaultProps = {
     autoplay: true,
 }
 
-export default Responsive;
+export default withRouter(Responsive);
