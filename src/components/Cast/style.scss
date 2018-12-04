@@ -45,5 +45,8 @@
         position: relative;
         padding: 0px;
         height: 100%;
+
+        transition: linear;
+        transition-duration: 0.2s;
     }
 }
