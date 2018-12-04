@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [https://moviechill.netlify.com/](https://moviechill.netlify.com/)
 
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/public/images/demo/1.png)
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/public/images/demo/2.png)
+![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/1.png)
+![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/2.png)
 
 ## Available Scripts
 
