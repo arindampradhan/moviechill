@@ -1,4 +1,4 @@
-import { observable, autorun, action, runInAction,computed } from "mobx";
+import { observable, action, runInAction,computed } from "mobx";
 import api from "../../api";
 class Movie {
     @observable movie = null

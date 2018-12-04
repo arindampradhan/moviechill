@@ -1,5 +1,5 @@
-import api, { discoverMovie } from '../../api';
-import { observable, autorun, action, computed, configure, runInAction } from "mobx";
+import api from '../../api';
+import { observable, action, computed, configure, runInAction } from "mobx";
 import _ from 'lodash'
 
 configure({ enforceActions: "observed" })

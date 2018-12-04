@@ -12,8 +12,6 @@ const MovieRowDiv = styled.div`
     background-size: cover;
     min-height: 100px;
 `
-
-
 function MovieDetail({ title, original_title, overview, release_date, poster_path, vote_average, adult, backdrop_path, ...rest }) {
     return (
         <div className="MovieDetail container-fluid padding-0 animated fadeIn">
@@ -39,6 +37,17 @@ function MovieDetail({ title, original_title, overview, release_date, poster_pat
             </div>
         </div>
     )
+}
+
+MovieDetail.propTypes = {
+    title: PropTypes.string,
+    original_title: PropTypes.string,
+    overview: PropTypes.string,
+    release_date: PropTypes.string,
+    poster_path: PropTypes.string,
+    vote_average: PropTypes.any,
+    adult: PropTypes.bool,
+    backdrop_path: PropTypes.string
 }
 
 export default MovieDetail;

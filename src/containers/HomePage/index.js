@@ -1,14 +1,14 @@
-import {observer} from 'mobx-react';
+import { observer, inject} from 'mobx-react';
 import React, { Component } from 'react'
 import _ from 'lodash';
 import CarouselA from '../../components/CarouselA';
 import ListA from '../../components/ListA';
 import '../../styles/pages/home.scss';
-import { TogglerView, DiscoverDiv } from '../../components/UI'
-import {Link} from 'react-router-dom'
+import { TogglerView } from '../../components/UI'
 import MovieDetail from '../../components/MovieDetail';
 import Categories from '../../components/Categories'
-@observer(["home"])
+@inject("home")
+@observer
 class HomePage extends Component {
   state = {
     trending: 'a',

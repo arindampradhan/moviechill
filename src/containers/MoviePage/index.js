@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { observer } from 'mobx-react';
+import { observer, inject } from 'mobx-react';
 import MovieView from '../../components/MovieView';
 import Cast from '../../components/Cast';
 import StoryView from '../../components/StoryView';
 
-
-@observer(['movie'])
+@inject("movie")
+@observer
 class MoviePage extends Component {
   componentDidMount() {
     const {movie, match} = this.props
@@ -26,7 +26,7 @@ class MoviePage extends Component {
 
   render() {
     const { movie, movie_details } = this.props.movie;
-    const { credits, external_ids, images, keywords, list, lists, recommendations, reviews, similarMovie, videos } = movie_details || {}
+    const { credits } = movie_details || {}
     
     return (
       <div className="container-fluid">

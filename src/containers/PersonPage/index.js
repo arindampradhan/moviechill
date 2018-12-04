@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { observer } from 'mobx-react';
+import { observer, inject } from 'mobx-react';
 import CarouselA from '../../components/CarouselA';
 
-@observer(['person'])
+@inject("person")
+@observer
 class PersonPage extends Component {
     componentDidMount() {
         const { person, match } = this.props

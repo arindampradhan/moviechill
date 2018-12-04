@@ -1,19 +1,9 @@
 import React, { Component } from 'react';
 import api from '../../api';
 import AsyncSelect from 'react-select/lib/Async';
-import _ from 'lodash'
 import {withRouter} from 'react-router-dom'
 // import { colourOptions } from '../data';
 
-type State = {
-    inputValue: string,
-};
-
-const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
-]
 
 function filterOptions(response) {
     console.log(response)

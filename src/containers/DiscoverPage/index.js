@@ -1,17 +1,14 @@
-import {observer} from 'mobx-react';
+import {observer, inject} from 'mobx-react';
 import React, { Component } from 'react'
-import _ from 'lodash'
 import ListA from '../../components/ListA';
 import '../../styles/pages/home.scss';
-import { TogglerView, DiscoverDiv } from '../../components/UI'
-import { Link } from 'react-router-dom'
 import MovieDetail from '../../components/MovieDetail';
 import Categories from '../../components/Categories'
 
 
 
-
-@observer(["home"])
+@inject("home")
+@observer
 class DiscoverPage extends Component {
   componentDidMount() {
     const { home, match } = this.props

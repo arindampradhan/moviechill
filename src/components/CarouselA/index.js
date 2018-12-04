@@ -27,7 +27,6 @@ const CarouselCover = styled.div`
         text-align: center;
     }
 `
-
 function CarouselItem({ data }) {
     return (
         <CarouselCover backdrop_path={data.backdrop_path} className="row h-100">
@@ -40,6 +39,7 @@ function CarouselItem({ data }) {
         </CarouselCover>
     )
 }
+/* eslint-disable no-func-assign */
 CarouselItem = React.memo(CarouselItem)
 
 CarouselItem.propTypes = {

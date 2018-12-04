@@ -1,5 +1,8 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import Helmet from 'react-helmet'
+
+
 function BootstrapTheme(params) {
     return (
       <div className="container">
@@ -503,8 +506,8 @@ function BootstrapTheme(params) {
                     </div>
                     <div className="form-group">
                       <label htmlFor="exampleSelect1">Example select</label>
-                      <select className="form-control" id="exampleSelect1">
-                        <option>1</option>
+                      <select className="form-control" id="exampleSelect1" >
+                        <option selected>1</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
@@ -1354,7 +1357,7 @@ function BootstrapTheme(params) {
             <div className="col-lg-12">
               <ul className="list-unstyled">
                 <li className="float-lg-right"><a href="#top">Back to top</a></li>
-                <li><a href="http://blog.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+                <li><a href="http://blog.bootswatch.com" >Blog</a></li>
                 <li><a href="https://feeds.feedburner.com/bootswatch">RSS</a></li>
                 <li><a href="https://twitter.com/bootswatch">Twitter</a></li>
                 <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
