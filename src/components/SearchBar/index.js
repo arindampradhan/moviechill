@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../api';
-import AsyncSelect from 'react-select/lib/Async';
+import AsyncSelect from 'react-select/async';
 import {withRouter} from 'react-router-dom'
 // import { colourOptions } from '../data';
 
@@ -25,7 +25,7 @@ const loadOptions = (inputValue, callback) => {
 
 class WithCallbacks extends Component {
     state = { inputValue: '' };
-    handleInputChange = (newValue: string) => {
+    handleInputChange = (newValue) => {
         const inputValue = newValue;
         this.setState({ inputValue });
         return inputValue;

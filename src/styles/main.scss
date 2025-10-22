@@ -1,11 +1,8 @@
 @import "./theme/variables";
-@import "~bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/bootstrap.scss";
 @import "./theme/bootstrap-theme";
 @import './modules/space';
 @import './modules/gradients';
-@import "~animate.css/animate.css";
-@import "~slick-carousel/slick/slick.css"; 
-@import "~slick-carousel/slick/slick-theme.css";
 @import "./shame";
 
 body {
