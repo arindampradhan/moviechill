@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { createBrowserHistory } from 'history';
 import { Provider } from 'mobx-react';
 import { configure } from "mobx";
 import HomeStore from './containers/HomePage/HomeStore';
