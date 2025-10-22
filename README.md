@@ -1,54 +1,242 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎬 Moviechill
 
-## [Demo](https://moviechill.netlify.com/)
+> A modern, fast, and responsive movie discovery application built with React and powered by The Movie Database (TMDB) API.
 
-[https://moviechill.netlify.com/](https://moviechill.netlify.com/)
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.21-646CFF.svg)](https://vitejs.dev/)
+[![pnpm](https://img.shields.io/badge/pnpm-10.x-F69220.svg)](https://pnpm.io/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/1.png)
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/2.png)
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/3.png)
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/4.png)
-![](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/5.png)
+## 🌟 Features
 
-## Available Scripts
+- **🔍 Smart Search** - Quickly find movies by title with autocomplete suggestions
+- **🎯 Discover** - Browse popular, trending, and top-rated movies
+- **📊 Categories** - Explore movies by genre and release year
+- **📱 Responsive Design** - Optimized for desktop, tablet, and mobile devices
+- **⚡ Lightning Fast** - Built with Vite for instant hot module replacement
+- **🎨 Modern UI** - Clean and intuitive interface with Bootstrap 5 and Styled Components
+- **📖 Detailed Info** - View comprehensive movie details, cast, ratings, and more
 
-In the project directory, you can run:
+## 🖼️ Screenshots
 
-### `npm start`
+![Homepage](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/1.png)
+![Movie Details](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/2.png)
+![Search](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/3.png)
+![Discover](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/4.png)
+![Cast Info](https://raw.githubusercontent.com/arindampradhan/moviechill/master/public/images/demo/5.png)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Live Demo
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Check out the live demo: [moviechill.netlify.com](https://moviechill.netlify.com/)
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- **React 18** - Modern UI library with hooks
+- **Vite** - Next generation frontend tooling
+- **MobX** - Simple, scalable state management
+- **React Router v4** - Declarative routing for React
 
-### `npm run build`
+### Styling
+- **Bootstrap 5** - Popular CSS framework
+- **Styled Components** - CSS-in-JS for component styling
+- **Sass** - CSS preprocessor for better styling workflow
+- **Animate.css** - Cross-browser CSS animations
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Additional Libraries
+- **Axios** - Promise-based HTTP client
+- **React Helmet** - Document head manager
+- **React Slick** - Carousel component
+- **React Select** - Flexible select input control
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Build Tools
+- **pnpm** - Fast, disk space efficient package manager
+- **Vite** - Lightning-fast build tool
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📋 Prerequisites
 
-### `npm run eject`
+Before you begin, ensure you have the following installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Node.js** 18.x or higher ([Download](https://nodejs.org/))
+- **pnpm** 10.x or higher (Install with `npm install -g pnpm`)
+- **Git** ([Download](https://git-scm.com/))
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 1. Clone the repository
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+git clone https://github.com/arindampradhan/moviechill.git
+cd moviechill
+```
 
-## Learn More
+### 2. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+pnpm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Configure API
+
+The app uses The Movie Database (TMDB) API. The API key is already included in `src/utils/constants.js` for demo purposes.
+
+For production use, you should:
+1. Get your own API key from [TMDB](https://www.themoviedb.org/settings/api)
+2. Update the `API_KEY` in `src/utils/constants.js`
+
+```javascript
+// src/utils/constants.js
+export const API_KEY = 'your_api_key_here';
+export const API_URL = 'https://api.themoviedb.org/3';
+export const DEFAULT_LANG = 'en-US';
+```
+
+### 4. Run the development server
+
+```bash
+pnpm run dev
+```
+
+The app will open at [http://localhost:3000](http://localhost:3000)
+
+## 📜 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `pnpm run dev` | Starts the development server with hot reload |
+| `pnpm run build` | Creates an optimized production build |
+| `pnpm run preview` | Locally preview the production build |
+
+## 📁 Project Structure
+
+```
+moviechill/
+├── public/              # Static files
+│   ├── images/         # Image assets
+│   ├── favicon.ico     # Favicon
+│   └── manifest.json   # PWA manifest
+├── src/
+│   ├── api.js          # API functions
+│   ├── index.js        # App entry point
+│   ├── components/     # Reusable components
+│   ├── containers/     # Page components with routing
+│   ├── styles/         # Global styles and themes
+│   └── utils/          # Utility functions and constants
+├── index.html          # HTML template
+├── package.json        # Project dependencies and scripts
+├── vite.config.js      # Vite configuration
+├── vercel.json         # Vercel deployment config
+└── README.md           # Project documentation
+```
+
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/arindampradhan/moviechill)
+
+#### Manual Deployment
+
+1. Install Vercel CLI:
+```bash
+npm install -g vercel
+```
+
+2. Deploy:
+```bash
+vercel
+```
+
+#### Automatic Deployment
+
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Vercel will automatically detect the configuration and deploy
+
+### Deploy to Netlify
+
+1. Build the project:
+```bash
+pnpm run build
+```
+
+2. Deploy the `build` folder to Netlify
+
+Or use the Netlify CLI:
+```bash
+npm install -g netlify-cli
+netlify deploy --prod --dir=build
+```
+
+## 🔑 Environment Variables
+
+The API key is currently hardcoded in the source. For better security in production:
+
+1. Create a `.env` file in the root directory
+2. Add your environment variables:
+```env
+VITE_TMDB_API_KEY=your_api_key_here
+VITE_TMDB_API_URL=https://api.themoviedb.org/3
+```
+
+3. Update `src/utils/constants.js` to use environment variables:
+```javascript
+export const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+export const API_URL = import.meta.env.VITE_TMDB_API_URL;
+```
+
+## 🐛 Troubleshooting
+
+### Port already in use
+
+If port 3000 is in use, Vite will automatically try the next available port (3001, 3002, etc.)
+
+### Build fails
+
+1. Clear the cache:
+```bash
+rm -rf node_modules .pnpm-store
+pnpm install
+```
+
+2. Clear Vite cache:
+```bash
+rm -rf node_modules/.vite
+pnpm run build
+```
+
+### Sass deprecation warnings
+
+The warnings about Sass deprecations are from Bootstrap 5 and won't affect functionality. They'll be resolved when Bootstrap updates to Dart Sass 2.0.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👏 Acknowledgments
+
+- Movie data provided by [The Movie Database (TMDB)](https://www.themoviedb.org/)
+- Built with [Create React App](https://create-react-app.dev/) (originally), now migrated to [Vite](https://vitejs.dev/)
+- Icons from [Font Awesome](https://fontawesome.com/)
+
+## 📧 Contact
+
+Arindam Pradhan - [@arindampradhan](https://github.com/arindampradhan)
+
+Project Link: [https://github.com/arindampradhan/moviechill](https://github.com/arindampradhan/moviechill)
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by Arindam Pradhan</sub>
+</div>

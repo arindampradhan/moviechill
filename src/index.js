@@ -12,6 +12,9 @@ import { enableLogging } from 'mobx-logger';
 import ScrollToTop from './components/ScrollToTop/index'
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
+import 'animate.css/animate.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import './styles/main.scss';
 
 const browserHistory = createBrowserHistory();
