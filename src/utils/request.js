@@ -13,8 +13,11 @@ import { API_URL, API_KEY, DEFAULT_LANG} from './constants'
  */
 const client = axios.create({
     baseURL: API_URL,
+    headers: {
+        'Authorization': `Bearer ${API_KEY}`,
+        'Content-Type': 'application/json;charset=utf-8'
+    },
     params: {
-        api_key: API_KEY,
         language: DEFAULT_LANG
     },
 });

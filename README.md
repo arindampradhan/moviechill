@@ -76,20 +76,28 @@ cd moviechill
 pnpm install
 ```
 
-### 3. Configure API
+### 3. Configure TMDB API
 
-The app uses The Movie Database (TMDB) API. The API key is already included in `src/utils/constants.js` for demo purposes.
+The app uses The Movie Database (TMDB) API. You need to get your own API Read Access Token:
 
-For production use, you should:
-1. Get your own API key from [TMDB](https://www.themoviedb.org/settings/api)
-2. Update the `API_KEY` in `src/utils/constants.js`
+1. **Create a TMDB account** at [themoviedb.org](https://www.themoviedb.org/signup)
+2. **Get your API Read Access Token**:
+   - Go to [TMDB API Settings](https://www.themoviedb.org/settings/api)
+   - Click "Create" and follow the steps to get your API key
+   - Copy the **API Read Access Token** (not the API Key v3)
+3. **Create a `.env` file** in the root directory:
 
-```javascript
-// src/utils/constants.js
-export const API_KEY = 'your_api_key_here';
-export const API_URL = 'https://api.themoviedb.org/3';
-export const DEFAULT_LANG = 'en-US';
+```bash
+cp .env.example .env
 ```
+
+4. **Add your token** to the `.env` file:
+
+```env
+VITE_TMDB_ACCESS_TOKEN=your_tmdb_api_read_access_token_here
+```
+
+⚠️ **Important**: Never commit your `.env` file to version control. It's already in `.gitignore`.
 
 ### 4. Run the development server
 
@@ -170,22 +178,25 @@ netlify deploy --prod --dir=build
 
 ## 🔑 Environment Variables
 
-The API key is currently hardcoded in the source. For better security in production:
+This app uses TMDB's Bearer Token authentication. Required environment variables:
 
-1. Create a `.env` file in the root directory
-2. Add your environment variables:
-```env
-VITE_TMDB_API_KEY=your_api_key_here
-VITE_TMDB_API_URL=https://api.themoviedb.org/3
-```
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `VITE_TMDB_ACCESS_TOKEN` | TMDB API Read Access Token | Yes |
 
-3. Update `src/utils/constants.js` to use environment variables:
-```javascript
-export const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-export const API_URL = import.meta.env.VITE_TMDB_API_URL;
-```
+Get your API Read Access Token from [TMDB API Settings](https://www.themoviedb.org/settings/api).
+
+**For Vercel/Netlify deployments**, add the `VITE_TMDB_ACCESS_TOKEN` environment variable in your deployment settings.
 
 ## 🐛 Troubleshooting
+
+### API not working / Movies not loading
+
+If the API isn't working:
+1. Verify you have a `.env` file with `VITE_TMDB_ACCESS_TOKEN`
+2. Ensure you're using the **API Read Access Token** (not the API Key v3)
+3. Check the browser console for error messages
+4. Restart the dev server after adding/changing environment variables
 
 ### Port already in use
 
